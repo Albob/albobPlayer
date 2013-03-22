@@ -1,0 +1,24 @@
+body {
+    margin: 5;
+}
+#filterDiv {
+    margin: 5px 5px 5px 5px;
+}
+#filterText {
+    width: auto;
+}
+#episodeBoxList {
+    margin: 10px 10px 10px 10px;
+}
+.episode {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    width: auto;
+    font-size: 22px;
+}
+.episode-even {
+    background-color: #F9F9F5;
+}
+.episode-odd  {
+    background-color: #CCD0DF;
+}

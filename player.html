@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="fr" prefix="og: http://ogp.me/ns#/">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="fragment" content="!">
+    
+    <meta property="og:title" content="Le player du peuple" id="meta-title">
+    <meta property="og:url" content="http://abauchu.net/les2minutes/player.html">
+    <meta property="og:image" content="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc6/230415_47457444968_7481363_n.jpg">
+    <meta property="og:site_name" content="Le player du peuple">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Enfin un site pour écouter facilement ses sketches préférés!">
+    
+    <meta property="fb:admins" content="550128282" />
+    <meta property="fb:app_id" content="458243960860895" />
+    
+    <title>Le player du peuple</title>
+    
+    <link rel="stylesheet" href="les2Minutes.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="les2Minutes.js"></script>
+    <script src="les2MinutesData.js"></script>
+</head>
+
+<body onload="onPageLoaded()">
+<div id="main">
+    <div id="header">
+        <h1 id="title">Le player du peuple!</h1>
+        
+        <div id="controls">
+            <p>
+                <span>En cours: </span>
+                <span id="soundTitle" style="">
+                    Choisissez un épisode à écouter
+                </span>
+            </p>
+            
+            <img src="transparent.png" id="previousSound" />
+            <img src="transparent.png" id="playSound" />
+            <img src="transparent.png" id="pauseSound" onclick="pauseEpisode();" />
+            <img src="transparent.png" id="nextSound" />
+        </div>
+        
+        <div>
+            <audio id="audioPlayer" autoplay>
+                <p>Bouh! Votre browser il gère trop pas la balise <code>audio</code>". Comment il est has-been...</p>
+				<p>Vous devriez considérer d'en changer. Visitez ce site:
+					<a href='http://www.whatbrowser.org/'>What browser</a>
+				</p>
+            </audio>
+        </div>
+        
+        <div id="search">
+            <!-- <span>Filtre de recherche: </span> -->
+            <input type="text" id="filterText" name="filterText" onkeydown="onFilterChange()"
+                value="(Tapez votre recherche ici)"/>
+        </div>
+    </div>
+    
+    <div id="content">
+        <div id="episodeBoxList">
+            <!-- This is where the real content goes -->
+        </div>
+    </div>
+    
+    <div id="footer">
+        <span>Par <a href="http://abauchu.net/blog/">Albob</a>.</span>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6336266-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    background-color: rgb(70, 70, 70);
+}
+#main {
+    margin: 0px auto;
+    min-width: 600px;
+    max-width: 700px;
+    background-color: white;
+}
+#header {
+    text-align: center;
+    background-color: grey;
+    margin: auto;
+}
+#content {
+    height: 618px;
+}
+#footer {
+    padding: 5px;
+    background-color: grey;
+}
+#title {
+    text-align: center;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0px;
+    padding: 5px;
+}
+#soundTitle {
+    background-color: #105F1D;
+    color: white;
+    font-family: courier;
+}
+#filterDiv {
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+#filterText {
+    width: auto;
+}
+#episodeBoxList {
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    overflow-y: auto;
+}
+#filterText {
+    margin: 5px;
+    width: 98%;
+}
+
+/* Player controls */
+#previousSound {
+    background: url(player_buttons.png) -325px 0px;
+}
+#previousSound:hover {
+    background: url(player_buttons.png) -325px -78px;
+}
+#previousSound:active {
+    background: url(player_buttons.png) -325px -157px;
+}
+#playSound {
+    background: url(player_buttons.png) -163px 0px;
+}
+#playSound:hover {
+    background: url(player_buttons.png) -163px -78px;
+}
+#playSound:active {
+    background: url(player_buttons.png) -163px -157px;
+}
+#pauseSound {
+    display: none;
+    background: url(player_buttons.png) -400px 0px;
+}
+#pauseSound:hover {
+    background: url(player_buttons.png) -400px -78px;
+}
+#pauseSound:active {
+    background: url(player_buttons.png) -163px -157px;
+}
+#nextSound {
+    background: url(player_buttons.png) -243px 0px;
+}
+#nextSound:hover {
+    background: url(player_buttons.png) -243px -78px;
+}
+#nextSound:active {
+    background: url(player_buttons.png) -243px -157px;
+}
+/* !Player controls */
+
+.episode span {
+    padding-left: 10px;
+}
+.episode {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    width: auto;
+    font-size: 18px;
+}
+.episode:nth-child(even) {
+    background-color: #9AB9CE;
+}
+.episode:nth-child(odd)  {
+    background-color: #CCD0DF;
+}
+.played {
+    background-color: green !important;
+}
+.wiki-link {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC)
+        center right no-repeat;
+    padding-right: 13px;
+}
