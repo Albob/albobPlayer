@@ -10,12 +10,12 @@ var playerData = {
     },
     {
       "title": "Abonnement au magazine",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0008"
     },
     {
       "title": "Abonnement au service de livraison",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0009"
     },
     {
@@ -30,22 +30,22 @@ var playerData = {
     },
     {
       "title": "Acte de succession",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0013"
     },
     {
       "title": "Agence de pub",
-      "series": "Divers",
+      "series": "Agence de pub",
       "filename": "0014"
     },
     {
       "title": "Aiguisage de couteaux",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0015"
     },
     {
       "title": "Alcool, drogue ou quelque chose",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0017"
     },
     {
@@ -65,22 +65,22 @@ var playerData = {
     },
     {
       "title": "Annonce avec bonne humeur",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0022"
     },
     {
       "title": "Annonceur embêtant le perchiste",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0023"
     },
     {
       "title": "Annonceur grippe",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0024"
     },
     {
       "title": "Annonceur sans assurance",
-      "series": "Divers",
+      "series": "La science et vous",
       "filename": "0025"
     },
     {
@@ -125,17 +125,17 @@ var playerData = {
     },
     {
       "title": "Audition d'un saxophoniste-chanteur",
-      "series": "Divers",
+      "series": "Auditions",
       "filename": "0037"
     },
     {
       "title": "Audition de Robert Vol.1",
-      "series": "Divers",
+      "series": "Auditions",
       "filename": "0035"
     },
     {
       "title": "Audition de Robert Vol.2",
-      "series": "Divers",
+      "series": "Auditions",
       "filename": "0036"
     },
     {
@@ -175,12 +175,12 @@ var playerData = {
     },
     {
       "title": "Bichdui VS Bouchkui",
-      "series": "Divers",
+      "series": "Informations Quizz",
       "filename": "0048"
     },
     {
       "title": "Bidru VS Drubi",
-      "series": "Divers",
+      "series": "Informations Quizz",
       "filename": "0049"
     },
     {
@@ -195,7 +195,7 @@ var playerData = {
     },
     {
       "title": "Bordua VS Dubois",
-      "series": "Divers",
+      "series": "Informations Quizz",
       "filename": "0052"
     },
     {
@@ -330,7 +330,7 @@ var playerData = {
     },
     {
       "title": "Chiasson VS Dupré",
-      "series": "Divers",
+      "series": "Informations Quizz",
       "filename": "0084"
     },
     {
@@ -595,7 +595,7 @@ var playerData = {
     },
     {
       "title": "Duca VS Cadu",
-      "series": "Divers",
+      "series": "Informations Quizz",
       "filename": "0141"
     },
     {
@@ -635,12 +635,12 @@ var playerData = {
     },
     {
       "title": "Calembours Stupides! avec Michael Jackson, Bill Clinton",
-      "series": "Emission TV",
+      "series": "Emissions TV",
       "filename": "0342"
     },
     {
       "title": "Paroles et...",
-      "series": "Emission TV",
+      "series": "Emissions TV",
       "filename": "0373"
     },
     {
@@ -1045,7 +1045,7 @@ var playerData = {
     },
     {
       "title": "Kerbout VS Berkout",
-      "series": "Divers",
+      "series": "Informations Quizz",
       "filename": "0227"
     },
     {
@@ -1830,7 +1830,7 @@ var playerData = {
     },
     {
       "title": "Professionnel presse",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0404"
     },
     {
@@ -1840,12 +1840,12 @@ var playerData = {
     },
     {
       "title": "Présentateur \"N'importe Qui\" et Chnout",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0398"
     },
     {
-      "title": "Présentateur au XWC",
-      "series": "Divers",
+      "title": "Présentateur aux WC",
+      "series": "Ca se dispute",
       "filename": "0397"
     },
     {
