@@ -890,7 +890,7 @@ var playerData = {
     },
     {
       "title": "Ils peuvent remettre leur pantalon",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0198"
     },
     {
@@ -2225,27 +2225,27 @@ var playerData = {
     },
     {
       "title": "C'est le type qui sprrr",
-      "series": "Star Trek du Peuple",
+      "series": "Star Trek du peuple",
       "filename": "0074"
     },
     {
       "title": "Contourner la zone",
-      "series": "Star Trek du Peuple",
+      "series": "Star Trek du peuple",
       "filename": "0101"
     },
     {
       "title": "Musique d'ouverture plaisante",
-      "series": "Star Trek du Peuple",
+      "series": "Star Trek du peuple",
       "filename": "0352"
     },
     {
       "title": "Spock a des écouteurs",
-      "series": "Star Trek du Peuple",
+      "series": "Star Trek du peuple",
       "filename": "0464"
     },
     {
       "title": "Spock a un problème de volume",
-      "series": "Star Trek du Peuple",
+      "series": "Star Trek du peuple",
       "filename": "0465"
     },
     {
@@ -2405,47 +2405,47 @@ var playerData = {
     },
     {
       "title": "Copine bizarre",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0107"
     },
     {
       "title": "Infirmière favorite de Malcolm",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0199"
     },
     {
       "title": "Malcolm fait des mots croisés",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0323"
     },
     {
       "title": "Menaces de l'Irak",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0338"
     },
     {
       "title": "Mélanome malin de type A",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0337"
     },
     {
       "title": "Opération loupée",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0368"
     },
     {
       "title": "Opérations gratuites en cachette",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0369"
     },
     {
       "title": "Patient amputé des deux jambes",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0377"
     },
     {
       "title": "Tumeur au cerveau",
-      "series": "Urgences du Peuple",
+      "series": "Urgences du peuple",
       "filename": "0001"
     },
     {
@@ -2565,7 +2565,7 @@ var playerData = {
     },
     {
       "title": "Bouche sans sourire",
-      "series": "X-Files du Peuple",
+      "series": "X-Files du peuple",
       "filename": "0053"
     },
     {
