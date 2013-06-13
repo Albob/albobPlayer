@@ -51,6 +51,11 @@ body {
 }
 
 /* Player controls */
+#randomButton {
+    position: relative;
+    top: 96px;
+    left: -214px;
+}
 #previousSound {
     background: url(player_buttons.png) -325px 0px;
 }
@@ -105,9 +110,18 @@ body {
 .episode:nth-child(odd)  {
     background-color: #CCD0DF;
 }
+.episode:nth-child(even):hover {
+    background-color: #7897AC;
+}
+.episode:nth-child(odd):hover  {
+    background-color: #AAB0BC;
+}
 .played {
     background-color: green !important;
 }
 span.seriesLabel {
     color: rgb(6, 59, 109);
+}
+.playButton:hover {
+    color: rgb(70, 120, 247);
 }

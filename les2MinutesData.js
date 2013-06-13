@@ -2005,7 +2005,7 @@ var playerData = {
     },
     {
       "title": "Retire l'affaire à cause du général",
-      "series": "Divers",
+      "series": "X-files du peuple",
       "filename": "0441"
     },
     {
@@ -2565,7 +2565,7 @@ var playerData = {
     },
     {
       "title": "Bouche sans sourire",
-      "series": "X-Files du peuple",
+      "series": "X-files du peuple",
       "filename": "0053"
     },
     {
