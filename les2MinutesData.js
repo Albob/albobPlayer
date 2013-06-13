@@ -1365,7 +1365,7 @@ var playerData = {
     },
     {
       "title": "Les cuivres",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0282"
     },
     {
@@ -1795,7 +1795,7 @@ var playerData = {
     },
     {
       "title": "Portable au théâtre",
-      "series": "Divers",
+      "series": "Théâtre",
       "filename": "0391"
     },
     {
@@ -1875,7 +1875,7 @@ var playerData = {
     },
     {
       "title": "Pub comparative",
-      "series": "Divers",
+      "series": "Agence de pub",
       "filename": "0407"
     },
     {
@@ -1884,13 +1884,13 @@ var playerData = {
       "filename": "0408"
     },
     {
-      "title": "Pub mal cadrée",
-      "series": "Divers",
+      "title": "Pub mal cadrée et ex-criminel",
+      "series": "Agence de pub",
       "filename": "0409"
     },
     {
       "title": "Pub pour des vitamines",
-      "series": "Divers",
+      "series": "Agence de pub",
       "filename": "0410"
     },
     {
@@ -1940,7 +1940,7 @@ var playerData = {
     },
     {
       "title": "Recherche de Parlà",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0420"
     },
     {
@@ -2125,7 +2125,7 @@ var playerData = {
     },
     {
       "title": "Répétition de théâtre",
-      "series": "Divers",
+      "series": "Théâtre",
       "filename": "0432"
     },
     {
@@ -2260,7 +2260,7 @@ var playerData = {
     },
     {
       "title": "Suicide à coups de claques",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0470"
     },
     {
@@ -2290,7 +2290,7 @@ var playerData = {
     },
     {
       "title": "Thomas Edison",
-      "series": "Divers",
+      "series": "Célébrités mortes",
       "filename": "0479"
     },
     {
@@ -2325,7 +2325,7 @@ var playerData = {
     },
     {
       "title": "Travailler comme espion",
-      "series": "Divers",
+      "series": "Espionnage",
       "filename": "0486"
     },
     {
@@ -2350,12 +2350,12 @@ var playerData = {
     },
     {
       "title": "Trouver le dossier avant que l'inspecteur n'arrive",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0490"
     },
     {
       "title": "Télé en fond sonore",
-      "series": "Divers",
+      "series": "Roger et Caroline",
       "filename": "0477"
     },
     {
@@ -2390,7 +2390,7 @@ var playerData = {
     },
     {
       "title": "Un mort par balle, un noyé",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0497"
     },
     {
@@ -2400,7 +2400,7 @@ var playerData = {
     },
     {
       "title": "Une tradition des souvenirs",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0493"
     },
     {
@@ -2455,7 +2455,7 @@ var playerData = {
     },
     {
       "title": "Vaisseau et demi",
-      "series": "Divers",
+      "series": "Star Trek du peuple",
       "filename": "0501"
     },
     {
@@ -2475,12 +2475,12 @@ var playerData = {
     },
     {
       "title": "Vente d'encyclopédies",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0506"
     },
     {
       "title": "Vente de batterie de cuisine",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0505"
     },
     {
@@ -2500,7 +2500,7 @@ var playerData = {
     },
     {
       "title": "Victor Hugo",
-      "series": "Divers",
+      "series": "Célébrités mortes",
       "filename": "0508"
     },
     {
@@ -2545,7 +2545,7 @@ var playerData = {
     },
     {
       "title": "Vive l'amour",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0517"
     },
     {
@@ -2554,7 +2554,7 @@ var playerData = {
       "filename": "0518"
     },
     {
-      "title": "Vous de rêvez plus",
+      "title": "Vous ne rêvez plus",
       "series": "Divers",
       "filename": "0521"
     },
@@ -2590,7 +2590,7 @@ var playerData = {
     },
     {
       "title": "Yves gagne 10 000 francs",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0523"
     },
     {
@@ -2605,17 +2605,17 @@ var playerData = {
     },
     {
       "title": "Ça va mal aller dans un instant",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0068"
     },
     {
       "title": "Ça va être ta fête",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0067"
     },
     {
       "title": "Échasses et ballons remplis d'eau",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0143"
     },
     {
