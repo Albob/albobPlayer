@@ -235,7 +235,7 @@ var playerData = {
     },
     {
       "title": "C'est belle une fille",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0071"
     },
     {

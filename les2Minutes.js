@@ -81,6 +81,19 @@ function playEpisode($episode_index) {
 		prev_episode_index = (playerData.episodes.length + $episode_index - 1) % playerData.episodes.length;
 		listenTo(prev_episode_index);
 	});
+
+	$(player).one("ended", function() {
+		var next_episode_index;
+
+		if (Les2Minutes.isRandom) {
+			next_episode_index = Math.floor(Math.random() * Les2Minutes.data.episodes.length)
+		}
+		else {
+			next_episode_index = $episode_index + 1;
+		}
+
+		listenTo(next_episode_index);
+	});
 }
 
 function onHashChange() {
@@ -131,6 +144,7 @@ function pauseEpisode() {
 function onRandomButtonClicked() {
 	var rand;
 
+	Les2Minutes.isRandom = true;
 	rand = Math.floor(Math.random() * Les2Minutes.data.episodes.length);
 	listenTo(rand);
 }
