@@ -350,7 +350,7 @@ var playerData = {
     },
     {
       "title": "City Zoiseaux",
-      "series": "Divers",
+      "series": "Radio Positive",
       "filename": "0088"
     },
     {
@@ -1285,12 +1285,12 @@ var playerData = {
     },
     {
       "title": "Le petit menuisier moustachu",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0269"
     },
     {
       "title": "Le piano",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0270"
     },
     {
@@ -1315,7 +1315,7 @@ var playerData = {
     },
     {
       "title": "Le père Noël",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0268"
     },
     {
@@ -1510,12 +1510,12 @@ var playerData = {
     },
     {
       "title": "Louis XIV",
-      "series": "Divers",
+      "series": "Célébrités mortes",
       "filename": "0316"
     },
     {
       "title": "Ludwig Von Beethoven",
-      "series": "Divers",
+      "series": "Célébrités mortes",
       "filename": "0317"
     },
     {
@@ -1525,7 +1525,7 @@ var playerData = {
     },
     {
       "title": "Léonard de Vinci",
-      "series": "Divers",
+      "series": "Célébrités mortes",
       "filename": "0265"
     },
     {
@@ -1700,7 +1700,7 @@ var playerData = {
     },
     {
       "title": "Nouvelle association",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0364"
     },
     {
