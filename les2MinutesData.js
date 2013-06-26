@@ -5,7 +5,7 @@ var playerData = {
   "episodes": [
     {
       "title": "2000 licenciements locaux",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0007"
     },
     {
@@ -120,7 +120,7 @@ var playerData = {
     },
     {
       "title": "Attente de l'escouade des artificiers",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0034"
     },
     {
@@ -160,7 +160,7 @@ var playerData = {
     },
     {
       "title": "Avocats aux toilettes",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0044"
     },
     {
@@ -685,7 +685,7 @@ var playerData = {
     },
     {
       "title": "Encercler le secteur",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0148"
     },
     {
@@ -955,7 +955,7 @@ var playerData = {
     },
     {
       "title": "Invités divisés",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0212"
     },
     {
@@ -1450,7 +1450,7 @@ var playerData = {
     },
     {
       "title": "Les petits hamsters",
-      "series": "Divers",
+      "series": "Radio Positive",
       "filename": "0300"
     },
     {
