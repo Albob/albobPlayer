@@ -124,7 +124,7 @@ var playerData = {
       "filename": "0034"
     },
     {
-      "title": "Audition d'un saxophoniste-chanteur",
+      "title": "Audition d'un saxophonisteichanteur",
       "series": "Auditions",
       "filename": "0037"
     },
@@ -350,7 +350,7 @@ var playerData = {
     },
     {
       "title": "City Zoiseaux",
-      "series": "Radio Positive",
+      "series": "Radio positive",
       "filename": "0088"
     },
     {
@@ -905,7 +905,7 @@ var playerData = {
     },
     {
       "title": "Interrogateur peu confiant",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0202"
     },
     {
@@ -1435,7 +1435,7 @@ var playerData = {
     },
     {
       "title": "Les petits dauphins",
-      "series": "Divers",
+      "series": "Radio positive",
       "filename": "0297"
     },
     {
@@ -1450,17 +1450,17 @@ var playerData = {
     },
     {
       "title": "Les petits hamsters",
-      "series": "Radio Positive",
+      "series": "Radio positive",
       "filename": "0300"
     },
     {
       "title": "Les petits hippocampes",
-      "series": "Radio Positive",
+      "series": "Radio positive",
       "filename": "0301"
     },
     {
       "title": "Les petits rodactiles",
-      "series": "Radio Positive",
+      "series": "Radio positive",
       "filename": "0302"
     },
     {
@@ -2015,7 +2015,7 @@ var playerData = {
     },
     {
       "title": "Rien ne va plus avec sa femme",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0445"
     },
     {
@@ -2100,7 +2100,7 @@ var playerData = {
     },
     {
       "title": "Règlement de comptes",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0424"
     },
     {
@@ -2119,8 +2119,8 @@ var playerData = {
       "filename": "0423"
     },
     {
-      "title": "Réponse d'experte en un clin d'oeil",
-      "series": "Divers",
+      "title": "Réponse d'expert en un clin d'oeil",
+      "series": "Série policière",
       "filename": "0435"
     },
     {
@@ -2130,12 +2130,12 @@ var playerData = {
     },
     {
       "title": "Résultat des analyses",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0440"
     },
     {
       "title": "Réunion présidentielle sur les taxes",
-      "series": "Divers",
+      "series": "Gouvernement",
       "filename": "0443"
     },
     {
@@ -2145,12 +2145,12 @@ var playerData = {
     },
     {
       "title": "Salon funéraire",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0448"
     },
     {
       "title": "Scandale au gouvernement",
-      "series": "Divers",
+      "series": "Gouvernement",
       "filename": "0450"
     },
     {
@@ -2160,12 +2160,12 @@ var playerData = {
     },
     {
       "title": "Si jolie sérénade",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0452"
     },
     {
       "title": "Situation financière catastrophique",
-      "series": "Divers",
+      "series": "Gouvernement",
       "filename": "0453"
     },
     {
@@ -2175,12 +2175,12 @@ var playerData = {
     },
     {
       "title": "Ski",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0455"
     },
     {
       "title": "Snack-bar chez Léon",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0456"
     },
     {
