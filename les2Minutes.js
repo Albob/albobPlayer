@@ -102,7 +102,12 @@ function onHashChange() {
 	hash_fragments,
 	episode_index,
 	episode_list,
-	i;
+	i,
+	episode_box_height,
+	top_alignment,
+	bottom_alignment,
+	first_visible_episode_index,
+	last_visible_episode_index;
 
 	hash_fragments = window.location.hash.replace("#!", "").replace("#", "").split("&");
 
@@ -114,7 +119,23 @@ function onHashChange() {
 			episode_index = Math.max(0, Math.min(parseInt(fragment_split[1], 10) - 1, 524));
 			playEpisode(episode_index);
 			episode_list = $('#episodeBoxList').get(0);
-			episode_list.scrollTop = episode_index * episode_list.scrollHeight / episode_list.childElementCount;
+			content_height = $('#content').get(0).scrollHeight;
+			episode_box_height = episode_list.scrollHeight / episode_list.childElementCount;
+			top_alignment = Math.round(episode_index * episode_box_height);
+			bottom_alignment
+				= Math.round((episode_index + 1 - (content_height / episode_box_height))
+					* episode_box_height) + 10;
+
+			first_visible_episode_index = Math.ceil(episode_list.scrollTop / episode_box_height);
+			last_visible_episode_index
+				= Math.floor((episode_list.scrollTop + content_height) / episode_box_height) - 1;
+
+			if (episode_index < first_visible_episode_index) {
+				episode_list.scrollTop = top_alignment;
+			}
+			else if (episode_index > last_visible_episode_index) {
+				episode_list.scrollTop = bottom_alignment;
+			}
 		}
 	}
 }
