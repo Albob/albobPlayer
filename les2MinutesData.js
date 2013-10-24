@@ -1740,12 +1740,12 @@ var playerData = {
     },
     {
       "title": "Patinage artistique",
-      "series": "Divers",
+      "series": "Sports",
       "filename": "0378"
     },
     {
       "title": "Patineuse russe disqualifiée",
-      "series": "Divers",
+      "series": "Sports",
       "filename": "0379"
     },
     {
