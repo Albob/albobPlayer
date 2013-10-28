@@ -50,7 +50,7 @@ var playerData = {
     },
     {
       "title": "Alexandre consolé par Monsieur Bonheur",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0019"
     },
     {
@@ -105,7 +105,7 @@ var playerData = {
     },
     {
       "title": "Artistes amateurs",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0031"
     },
     {
@@ -145,7 +145,7 @@ var playerData = {
     },
     {
       "title": "Avalanche",
-      "series": "Divers",
+      "series": "Sports",
       "filename": "0041"
     },
     {
@@ -190,7 +190,7 @@ var playerData = {
     },
     {
       "title": "Bonbons super-pétouche",
-      "series": "Divers",
+      "series": "Monde de la pub",
       "filename": "0051"
     },
     {
@@ -220,7 +220,7 @@ var playerData = {
     },
     {
       "title": "Bug de l'an 2000",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0058"
     },
     {
@@ -270,12 +270,12 @@ var playerData = {
     },
     {
       "title": "Carrière de chanteur",
-      "series": "Divers",
+      "series": "Artistes",
       "filename": "0064"
     },
     {
       "title": "Cassette de répondeur",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0065"
     },
     {
@@ -295,7 +295,7 @@ var playerData = {
     },
     {
       "title": "Changement d'heure",
-      "series": "Divers",
+      "series": "Histoire",
       "filename": "0077"
     },
     {
@@ -305,7 +305,7 @@ var playerData = {
     },
     {
       "title": "Chanteur de grivois",
-      "series": "Divers",
+      "series": "Artistes",
       "filename": "0079"
     },
     {
@@ -325,7 +325,7 @@ var playerData = {
     },
     {
       "title": "Chercher un copain",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0083"
     },
     {
@@ -410,7 +410,7 @@ var playerData = {
     },
     {
       "title": "Commande d'Airbus annulée",
-      "series": "Divers",
+      "series": "Columbo du peuple",
       "filename": "0093"
     },
     {
@@ -420,7 +420,7 @@ var playerData = {
     },
     {
       "title": "Commentateurs de foot en retard",
-      "series": "Divers",
+      "series": "Sports",
       "filename": "0095"
     },
     {
@@ -430,12 +430,12 @@ var playerData = {
     },
     {
       "title": "Concentration",
-      "series": "Divers",
+      "series": "Monde de la pub",
       "filename": "0096"
     },
     {
       "title": "Conférence pour désigner le président",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0097"
     },
     {
@@ -445,7 +445,7 @@ var playerData = {
     },
     {
       "title": "Consultation du répondeur",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0099"
     },
     {
@@ -455,42 +455,42 @@ var playerData = {
     },
     {
       "title": "Contrôleur aérien",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0104"
     },
     {
       "title": "Conversations en taxi",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0105"
     },
     {
       "title": "Corps carbonisé dans une ferme",
-      "series": "Divers",
+      "series": "X-files du peuple",
       "filename": "0108"
     },
     {
       "title": "Corps dans le potager de la ferme",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0109"
     },
     {
       "title": "Corps dans une malle dans le jardin",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0110"
     },
     {
       "title": "Crickets sauve le monde",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0112"
     },
     {
       "title": "Critique de journal",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0113"
     },
     {
       "title": "Culture",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0114"
     },
     {
@@ -505,52 +505,52 @@ var playerData = {
     },
     {
       "title": "Dans un bistrot complètement saoul",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0117"
     },
     {
       "title": "Demande d'emprunt à la banque",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0122"
     },
     {
       "title": "Destin du mois",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0124"
     },
     {
       "title": "Dette",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0126"
     },
     {
       "title": "Dictée de Bernard Pivot",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0127"
     },
     {
       "title": "Didier et le grand argentier",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0128"
     },
     {
       "title": "Dieu fait sa pub",
-      "series": "Divers",
+      "series": "Agence de pub",
       "filename": "0129"
     },
     {
       "title": "Diner d'affaires",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0130"
     },
     {
       "title": "Discours présidentiel de Noël",
-      "series": "Divers",
+      "series": "Politique",
       "filename": "0131"
     },
     {
       "title": "Discussion de couple",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0132"
     },
     {
@@ -620,7 +620,7 @@ var playerData = {
     },
     {
       "title": "Déguisé en Robocop et Lewinsky",
-      "series": "Divers",
+      "series": "Conte d'horreur",
       "filename": "0121"
     },
     {
@@ -630,7 +630,7 @@ var playerData = {
     },
     {
       "title": "Détournement via Internet",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0125"
     },
     {
@@ -670,7 +670,7 @@ var playerData = {
     },
     {
       "title": "Employé à la sueur de mon front",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0145"
     },
     {
@@ -680,7 +680,7 @@ var playerData = {
     },
     {
       "title": "En panne à Halloween",
-      "series": "Divers",
+      "series": "Conte d'horreur",
       "filename": "0153"
     },
     {
@@ -690,17 +690,17 @@ var playerData = {
     },
     {
       "title": "Enduire de marinade",
-      "series": "Divers",
+      "series": "Radio Sexe",
       "filename": "0149"
     },
     {
       "title": "Enfants abandonnés",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0150"
     },
     {
       "title": "Enlever un morceau des intestins",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0152"
     },
     {
@@ -715,27 +715,27 @@ var playerData = {
     },
     {
       "title": "Enterrement",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0155"
     },
     {
       "title": "Entretien d'embauche",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0156"
     },
     {
       "title": "Entretien d'embauche d'une femme",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0157"
     },
     {
       "title": "Entretien paysager",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0158"
     },
     {
       "title": "Espion à bord",
-      "series": "Divers",
+      "series": "Star Trek du peuple",
       "filename": "0159"
     },
     {
@@ -760,17 +760,17 @@ var playerData = {
     },
     {
       "title": "Fanny et Pipi",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0164"
     },
     {
       "title": "Faut pas",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0165"
     },
     {
       "title": "Femme partie avec une valise",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0167"
     },
     {
@@ -780,22 +780,22 @@ var playerData = {
     },
     {
       "title": "Film avec effets spéciaux",
-      "series": "Divers",
+      "series": "X-files du peuple",
       "filename": "0169"
     },
     {
       "title": "Partie 1",
-      "series": "Film catastrophe",
+      "series": "Cinéma",
       "filename": "0170"
     },
     {
       "title": "Partie 2",
-      "series": "Film catastrophe",
+      "series": "Cinéma",
       "filename": "0171"
     },
     {
       "title": "Finale en musique jazz",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0172"
     },
     {
@@ -805,7 +805,7 @@ var playerData = {
     },
     {
       "title": "Formules de politesse",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0174"
     },
     {
@@ -850,42 +850,42 @@ var playerData = {
     },
     {
       "title": "Histoire américaine",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0190"
     },
     {
       "title": "Histoire de la langue française",
-      "series": "Divers",
+      "series": "Histoire",
       "filename": "0191"
     },
     {
       "title": "Histoire sur répondeur",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0192"
     },
     {
       "title": "Historique des jeux vidéos",
-      "series": "Divers",
+      "series": "Histoire",
       "filename": "0193"
     },
     {
       "title": "Hommage à Jacques Martin",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0194"
     },
     {
       "title": "Homme trompé",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0195"
     },
     {
       "title": "Hôpital complètement engorgé",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0196"
     },
     {
       "title": "Il ne fumait pas la pipe",
-      "series": "Divers",
+      "series": "Radio associative",
       "filename": "0197"
     },
     {
@@ -895,7 +895,7 @@ var playerData = {
     },
     {
       "title": "Inspecteur de police",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0200"
     },
     {
@@ -950,7 +950,7 @@ var playerData = {
     },
     {
       "title": "Inventions",
-      "series": "Divers",
+      "series": "Histoire",
       "filename": "0211"
     },
     {
@@ -960,17 +960,17 @@ var playerData = {
     },
     {
       "title": "J'aime pas ça",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0214"
     },
     {
       "title": "J'me casse la gueule en direct",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0221"
     },
     {
       "title": "J'suis un raté",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0225"
     },
     {
@@ -1185,7 +1185,7 @@ var playerData = {
     },
     {
       "title": "La potiche",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0241"
     },
     {
@@ -1245,17 +1245,17 @@ var playerData = {
     },
     {
       "title": "Le VTT",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0307"
     },
     {
       "title": "Le blues",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0254"
     },
     {
       "title": "Le cinéma d'époque",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0256"
     },
     {
@@ -1265,12 +1265,12 @@ var playerData = {
     },
     {
       "title": "Le langage des films américains",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0259"
     },
     {
       "title": "Le mari vient de sortir",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0260"
     },
     {
@@ -1300,17 +1300,17 @@ var playerData = {
     },
     {
       "title": "Le président appelle le père Noël",
-      "series": "Divers",
+      "series": "Politique",
       "filename": "0271"
     },
     {
       "title": "Le psychiatre",
-      "series": "Divers",
+      "series": "Psy",
       "filename": "0273"
     },
     {
       "title": "Le psychologue",
-      "series": "Divers",
+      "series": "Psy",
       "filename": "0274"
     },
     {
@@ -1319,23 +1319,23 @@ var playerData = {
       "filename": "0268"
     },
     {
-      "title": "Le retour du courrier",
-      "series": "Divers",
+      "title": "Max Kriegger, Le retour du courrier",
+      "series": "Cinéma",
       "filename": "0275"
     },
     {
       "title": "Le réveil sonne tôt",
-      "series": "Divers",
+      "series": "X-files du peuple",
       "filename": "0276"
     },
     {
       "title": "Le temps des fêtes",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0305"
     },
     {
       "title": "Le type se retrouve dans le bar",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0306"
     },
     {
@@ -1350,17 +1350,17 @@ var playerData = {
     },
     {
       "title": "Les besoins du chien du voisin dans le jardin",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0279"
     },
     {
       "title": "Les cerveaux qui fleurissent",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0280"
     },
     {
       "title": "Les crottes de chien à Paris",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0281"
     },
     {
@@ -1400,7 +1400,7 @@ var playerData = {
     },
     {
       "title": "Les imperfections surprises",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0291"
     },
     {
@@ -1410,7 +1410,7 @@ var playerData = {
     },
     {
       "title": "Les ordures",
-      "series": "Divers",
+      "series": "Ca se dispute",
       "filename": "0293"
     },
     {
@@ -1420,17 +1420,17 @@ var playerData = {
     },
     {
       "title": "Les percussions",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0294"
     },
     {
       "title": "Les petites bêtes",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0295"
     },
     {
       "title": "Les petites poussières dans le nombril",
-      "series": "Divers",
+      "series": "Artistes",
       "filename": "0296"
     },
     {
@@ -1440,7 +1440,7 @@ var playerData = {
     },
     {
       "title": "Les petits dromadaires",
-      "series": "Divers",
+      "series": "Radio positive",
       "filename": "0298"
     },
     {
@@ -1485,7 +1485,7 @@ var playerData = {
     },
     {
       "title": "Les studios d'enregistrement",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0304"
     },
     {
@@ -1545,8 +1545,9 @@ var playerData = {
     },
     {
       "title": "Madame tumeur et Monsieur cerveau",
-      "series": "Divers",
-      "filename": "0319"
+      "series": "Urgences du peuple",
+      "filename": "0319",
+      "duplicate": true
     },
     {
       "title": "Manager de groupe",
@@ -1605,12 +1606,12 @@ var playerData = {
     },
     {
       "title": "Meeting et 4 sièges en cuir",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0336"
     },
     {
       "title": "Meute de journalistes",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0341"
     },
     {
@@ -1620,12 +1621,12 @@ var playerData = {
     },
     {
       "title": "Ministre avec l'avocat de Bardot",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0344"
     },
     {
       "title": "Mission à Disneyland",
-      "series": "Divers",
+      "series": "Espionnage",
       "filename": "0345"
     },
     {
@@ -1690,12 +1691,12 @@ var playerData = {
     },
     {
       "title": "Nouveau père",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0362"
     },
     {
       "title": "Nouveaux officiers du FBI",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0363"
     },
     {
@@ -1710,32 +1711,32 @@ var playerData = {
     },
     {
       "title": "Négocier avec le Japon",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0356"
     },
     {
       "title": "Opération d'un ministre",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0367"
     },
     {
       "title": "Ordinateurs de la banque plantés",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0370"
     },
     {
       "title": "Partie de Monopoly",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0374"
     },
     {
       "title": "Partie de Scrabble",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0375"
     },
     {
       "title": "Partir un jour",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0376"
     },
     {
@@ -1750,17 +1751,17 @@ var playerData = {
     },
     {
       "title": "Perceuse un peu forcée",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0380"
     },
     {
       "title": "Perdu en forêt",
-      "series": "Divers",
+      "series": "Conte d'horreur",
       "filename": "0381"
     },
     {
       "title": "Permis de porc",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0382"
     },
     {
@@ -1775,17 +1776,17 @@ var playerData = {
     },
     {
       "title": "Pianiste à un doigt",
-      "series": "Divers",
+      "series": "Radio associative",
       "filename": "0386"
     },
     {
       "title": "Plaisir-Express",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0387"
     },
     {
       "title": "Plaques de cire",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0388"
     },
     {
@@ -1805,7 +1806,7 @@ var playerData = {
     },
     {
       "title": "Possibilité d'être enceinte",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0393"
     },
     {
@@ -1855,17 +1856,17 @@ var playerData = {
     },
     {
       "title": "Président des USA",
-      "series": "Divers",
+      "series": "Politique",
       "filename": "0400"
     },
     {
       "title": "Prêter 5000 balles à Paul",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0401"
     },
     {
       "title": "Prêts à taux élevés",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0402"
     },
     {
@@ -1895,17 +1896,17 @@ var playerData = {
     },
     {
       "title": "Quand je chante comme ça",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0411"
     },
     {
       "title": "Quatrième ouh là !",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0412"
     },
     {
       "title": "Quelqu'un qui vous veut du bien",
-      "series": "Divers",
+      "series": "Espionnage",
       "filename": "0413"
     },
     {
@@ -1915,7 +1916,7 @@ var playerData = {
     },
     {
       "title": "Radio Poil d'Oreille",
-      "series": "Divers",
+      "series": "Radio associative",
       "filename": "0417"
     },
     {
@@ -1945,17 +1946,17 @@ var playerData = {
     },
     {
       "title": "Reconstitution d'un visage",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0422"
     },
     {
       "title": "Relations extra-conjugales",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0425"
     },
     {
       "title": "Remise des palmes",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0426"
     },
     {
@@ -1965,12 +1966,12 @@ var playerData = {
     },
     {
       "title": "Rencontre de deux présidents opposés",
-      "series": "Divers",
+      "series": "Politique",
       "filename": "0427"
     },
     {
       "title": "Rendez-vous sur Internet",
-      "series": "Divers",
+      "series": "Internet",
       "filename": "0429"
     },
     {
@@ -1980,17 +1981,17 @@ var playerData = {
     },
     {
       "title": "Rentrée du boulot",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0431"
     },
     {
       "title": "Représentante en salle d'opération",
-      "series": "Divers",
+      "series": "Urgences du peuple",
       "filename": "0436"
     },
     {
       "title": "Restaurant diététique",
-      "series": "Divers",
+      "series": "New Age",
       "filename": "0437"
     },
     {
@@ -2000,7 +2001,7 @@ var playerData = {
     },
     {
       "title": "Restauration de façade",
-      "series": "Divers",
+      "series": "Commerces",
       "filename": "0439"
     },
     {
@@ -2135,7 +2136,7 @@ var playerData = {
     },
     {
       "title": "Réunion présidentielle sur les taxes",
-      "series": "Gouvernement",
+      "series": "Politique",
       "filename": "0443"
     },
     {
@@ -2150,7 +2151,7 @@ var playerData = {
     },
     {
       "title": "Scandale au gouvernement",
-      "series": "Gouvernement",
+      "series": "Politique",
       "filename": "0450"
     },
     {
@@ -2165,7 +2166,7 @@ var playerData = {
     },
     {
       "title": "Situation financière catastrophique",
-      "series": "Gouvernement",
+      "series": "Politique",
       "filename": "0453"
     },
     {
@@ -2195,7 +2196,7 @@ var playerData = {
     },
     {
       "title": "Sonde odyssée perdue",
-      "series": "Divers",
+      "series": "NASA du peuple",
       "filename": "0459"
     },
     {
@@ -2210,12 +2211,12 @@ var playerData = {
     },
     {
       "title": "Soudoyement",
-      "series": "Divers",
+      "series": "Vie d'entreprise",
       "filename": "0462"
     },
     {
       "title": "Spielberg et De Niro",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0463"
     },
     {
@@ -2250,7 +2251,7 @@ var playerData = {
     },
     {
       "title": "Station Mir",
-      "series": "Divers",
+      "series": "NASA du peuple",
       "filename": "0468"
     },
     {
@@ -2270,7 +2271,7 @@ var playerData = {
     },
     {
       "title": "Super Sport Plus pour tous",
-      "series": "Divers",
+      "series": "Sports",
       "filename": "0472"
     },
     {
@@ -2285,7 +2286,7 @@ var playerData = {
     },
     {
       "title": "Technologie musicale",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0475"
     },
     {
@@ -2295,17 +2296,17 @@ var playerData = {
     },
     {
       "title": "Tombé dans l'escalier",
-      "series": "Divers",
+      "series": "Tribunal du peuple",
       "filename": "0480"
     },
     {
       "title": "Toto le crétin",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0481"
     },
     {
       "title": "Toujours en train de boire",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0482"
     },
     {
@@ -2315,12 +2316,12 @@ var playerData = {
     },
     {
       "title": "Tout le monde s'en fout",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0485"
     },
     {
       "title": "Tout le monde se couche",
-      "series": "Divers",
+      "series": "Série policière",
       "filename": "0484"
     },
     {
@@ -2340,12 +2341,12 @@ var playerData = {
     },
     {
       "title": "Trompé avec un aspirateur",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0489"
     },
     {
       "title": "Trompé avec un fermier",
-      "series": "Divers",
+      "series": "Théâtre de boulevard",
       "filename": "0488"
     },
     {
@@ -2360,7 +2361,7 @@ var playerData = {
     },
     {
       "title": "Télé-Achats",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0476"
     },
     {
@@ -2375,12 +2376,12 @@ var playerData = {
     },
     {
       "title": "Un invité de Marc",
-      "series": "Divers",
+      "series": "Emissions TV",
       "filename": "0494"
     },
     {
       "title": "Un jeune premier ministre",
-      "series": "Divers",
+      "series": "Politique",
       "filename": "0495"
     },
     {
@@ -2395,7 +2396,7 @@ var playerData = {
     },
     {
       "title": "Un vieil ami",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0499"
     },
     {
