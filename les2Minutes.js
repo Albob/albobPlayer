@@ -46,26 +46,32 @@ function listenTo($episode_index) {
 
 function playEpisode($episode_index) {
 	var player,
-	sound_title,
-	episode_info;
+		sound_title,
+		series_title,
+		episode_info;
 
+	say('Playing episode...');
+	episode_info = playerData.episodes[$episode_index];
 	player = document.getElementById("audioPlayer");
 	clearSources(player);
-	loadSources(player, playerData.base_url, playerData.episodes[$episode_index].filename);
+	loadSources(player, playerData.base_url, episode_info.filename);
 	player.play();
 	sound_title = document.getElementById("soundTitle");
-	sound_title.innerHTML = playerData.episodes[$episode_index].title;
+	sound_title.innerHTML = episode_info.title;
+	series_title = document.getElementById("seriesTitle");
+	series_title.innerHTML = episode_info.series;
 
 	$('.played').removeClass('played');
-	episode_info = playerData.episodes[$episode_index];
 	$('#' + episode_info.filename).addClass('played');
 
-	$('#pauseSound').css('display', 'inline');
+	$('#pauseButton').css('display', 'inline');
+	$('#randomButton').animate({opacity: 1});
 
-	$('#playSound').css('display', 'none').off('click').on('click', function () {
+	$('#playButton').css('display', 'none').off('click').on('click', function () {
+		say('Clicked on play button');
 		$('#audioPlayer')[0].play();
-		$('#playSound').css('display', 'none');
-		$('#pauseSound').css('display', 'inline');
+		$('#playButton').css('display', 'none');
+		$('#pauseButton').css('display', 'inline');
 	});
 
 	$("#nextSound").off("click").on("click", function () {
@@ -118,23 +124,26 @@ function onHashChange() {
 		if (fragment_split[0] === "episode") {
 			episode_index = Math.max(0, Math.min(parseInt(fragment_split[1], 10) - 1, 524));
 			playEpisode(episode_index);
-			episode_list = $('#episodeBoxList').get(0);
-			content_height = $('#content').get(0).scrollHeight;
-			episode_box_height = episode_list.scrollHeight / episode_list.childElementCount;
-			top_alignment = Math.round(episode_index * episode_box_height);
-			bottom_alignment
-				= Math.round((episode_index + 1 - (content_height / episode_box_height))
-					* episode_box_height) + 10;
 
-			first_visible_episode_index = Math.ceil(episode_list.scrollTop / episode_box_height);
-			last_visible_episode_index
-				= Math.floor((episode_list.scrollTop + content_height) / episode_box_height) - 1;
+			if (!Les2Minutes.isMobile) {
+				episode_list = $('#episodeBoxList').get(0);
+				content_height = $('#content').get(0).scrollHeight;
+				episode_box_height = episode_list.scrollHeight / episode_list.childElementCount;
+				top_alignment = Math.round(episode_index * episode_box_height);
+				bottom_alignment
+					= Math.round((episode_index + 1 - (content_height / episode_box_height))
+						* episode_box_height) + 10;
 
-			if (episode_index < first_visible_episode_index) {
-				episode_list.scrollTop = top_alignment;
-			}
-			else if (episode_index > last_visible_episode_index) {
-				episode_list.scrollTop = bottom_alignment;
+				first_visible_episode_index = Math.ceil(episode_list.scrollTop / episode_box_height);
+				last_visible_episode_index
+					= Math.floor((episode_list.scrollTop + content_height) / episode_box_height) - 1;
+
+				if (episode_index < first_visible_episode_index) {
+					episode_list.scrollTop = top_alignment;
+				}
+				else if (episode_index > last_visible_episode_index) {
+					episode_list.scrollTop = bottom_alignment;
+				}
 			}
 		}
 	}
@@ -142,6 +151,7 @@ function onHashChange() {
 
 function getEpisodeBoxClosure($episode_index) {
 	return function () {
+		say('Clicked on play...');
 		playEpisode($episode_index);
 
 		$(window).off('hashchange').on('hashchange', onHashChange);
@@ -157,9 +167,10 @@ function getEpisodeBoxClosure($episode_index) {
 }
 
 function pauseEpisode() {
+	say('Pausing episode...');
 	$('#audioPlayer')[0].pause();
-	$('#playSound').css('display', 'inline');
-	$('#pauseSound').css('display', 'none');
+	$('#playButton').css('display', 'inline');
+	$('#pauseButton').css('display', 'none');
 }
 
 function onRandomButtonClicked() {
@@ -172,49 +183,52 @@ function onRandomButtonClicked() {
 
 function onPageLoaded() {
 	var i,
-	episode_info,
-	episode_box,
-	box_list,
-	play_button,
-	span;
+		episode_info,
+		episode_box,
+		box_list,
+		play_button,
+		span;
 
-	for (i = 0; i < playerData.episodes.length; i += 1) {
-		episode_info = playerData.episodes[i];
+	say('Welcome to the player!'); 
 
-		episode_box = document.createElement("div");
-		episode_box.setAttribute('class', "episode");
-		episode_box.setAttribute('id', episode_info.filename);
+	if (!Les2Minutes.isMobile) {
+		for (i = 0; i < playerData.episodes.length; i += 1) {
+			episode_info = playerData.episodes[i];
 
-		play_button = document.createElement("button");
-		play_button.appendChild(document.createTextNode("PLAY"));
-		play_button.addEventListener("click", getEpisodeBoxClosure(i), false, 0, false);
-		$(play_button).addClass("playButton");
-		episode_box.appendChild(play_button);
+			episode_box = document.createElement("div");
+			episode_box.setAttribute('class', "episode");
+			episode_box.setAttribute('id', episode_info.filename);
 
-		span = document.createElement("span");
-		span.appendChild(document.createTextNode(playerData.episodes[i].series));
-		$(span).addClass("seriesLabel");
-		$(span).css("color", "0xFF0000");
-		episode_box.appendChild(span);
+			play_button = document.createElement("button");
+			play_button.appendChild(document.createTextNode("PLAY"));
+			play_button.addEventListener("click", getEpisodeBoxClosure(i), false, 0, false);
+			$(play_button).addClass("playButton");
+			episode_box.appendChild(play_button);
 
-		span = document.createElement("span");
-		span.appendChild(document.createTextNode("-"));
-		episode_box.appendChild(span);
+			span = document.createElement("span");
+			span.appendChild(document.createTextNode(playerData.episodes[i].series));
+			$(span).addClass("seriesLabel");
+			$(span).css("color", "0xFF0000");
+			episode_box.appendChild(span);
 
-		span = document.createElement("span");
-		span.appendChild(document.createTextNode(playerData.episodes[i].title));
-		episode_box.appendChild(span);
+			span = document.createElement("span");
+			span.appendChild(document.createTextNode("-"));
+			episode_box.appendChild(span);
 
-		box_list = document.getElementById("episodeBoxList");
-		box_list.appendChild(episode_box);
+			span = document.createElement("span");
+			span.appendChild(document.createTextNode(playerData.episodes[i].title));
+			episode_box.appendChild(span);
+
+			box_list = document.getElementById("episodeBoxList");
+			box_list.appendChild(episode_box);
+		}
 	}
 
 	onHashChange(playEpisode);
 	onResize(null);
-	$(window).on("hashchange", {
-		callback : playEpisode
-	}, onHashChange);
-	$("#playSound").on("click", getEpisodeBoxClosure(0));
+	$(window).on("hashchange", { callback : playEpisode }, onHashChange);
+	$('#playButton').on('click', getEpisodeBoxClosure(0));
+	$('#pauseButton').on('click', pauseEpisode);
 	window.addEventListener("resize", onResize, false, 0, false);
 
 	$("#randomButton").on("click", onRandomButtonClicked);
@@ -222,9 +236,9 @@ function onPageLoaded() {
 
 function onFilterTimeout() {
 	var i,
-	text_input,
-	episode_info,
-	episode_box;
+		text_input,
+		episode_info,
+		episode_box;
 
 	text_input = document.getElementById("filterText");
 

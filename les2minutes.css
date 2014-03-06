@@ -65,13 +65,13 @@ body {
 #previousSound:active {
     background: url(player_buttons.png) -325px -157px;
 }
-#playSound {
+#playButton {
     background: url(player_buttons.png) -163px 0px;
 }
-#playSound:hover {
+#playButton:hover {
     background: url(player_buttons.png) -163px -78px;
 }
-#playSound:active {
+#playButton:active {
     background: url(player_buttons.png) -163px -157px;
 }
 #pauseSound {

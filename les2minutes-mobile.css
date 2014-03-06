@@ -1,24 +1,29 @@
 body {
     margin: 5;
+    text-align: center;
 }
-#filterDiv {
-    margin: 5px 5px 5px 5px;
+#title {
+    width: 100%;
 }
-#filterText {
-    width: auto;
+button {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    color: white;
+    min-height: 60px;
+    font-size: 40px;
 }
-#episodeBoxList {
-    margin: 10px 10px 10px 10px;
+#playButton {
+    background-color: rgb(115, 170, 229);
 }
-.episode {
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
-    width: auto;
-    font-size: 22px;
+#pauseButton {
+    display: none;
+    background-color: rgb(115, 170, 229);
 }
-.episode-even {
-    background-color: #F9F9F5;
+#randomButton {
+    opacity: 0.0;
+    background-color: rgb(60, 124, 194);
 }
-.episode-odd  {
-    background-color: #CCD0DF;
+#footer {
+    margin-top: 20px;
 }

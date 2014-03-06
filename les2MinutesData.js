@@ -1,7 +1,7 @@
 var Les2Minutes = Les2Minutes || {};
 
 var playerData = {
-  "base_url": "http://abauchu.net/les2minutes/player/media/",
+  "base_url": "http://abauchu.net/les2minutes/media/",
   "episodes": [
     {
       "title": "2000 licenciements locaux",
@@ -2186,12 +2186,12 @@ var playerData = {
     },
     {
       "title": "Solo de Jimmy Page",
-      "series": "Divers",
+      "series": "Leçons de musique",
       "filename": "0457"
     },
     {
       "title": "Sondage sur Noël",
-      "series": "Divers",
+      "series": "Vente par téléphone",
       "filename": "0458"
     },
     {
@@ -2206,7 +2206,7 @@ var playerData = {
     },
     {
       "title": "Sophie Marceau chanteuse",
-      "series": "Divers",
+      "series": "Chansons",
       "filename": "0461"
     },
     {
@@ -2311,7 +2311,7 @@ var playerData = {
     },
     {
       "title": "Tourner sans décor",
-      "series": "Divers",
+      "series": "Cinéma",
       "filename": "0483"
     },
     {
@@ -2461,17 +2461,17 @@ var playerData = {
     },
     {
       "title": "Vaste opération en Russie",
-      "series": "Divers",
+      "series": "Espionnage",
       "filename": "0502"
     },
     {
       "title": "Vendeur de HiFi collant",
-      "series": "Divers",
+      "series": "Commerces",
       "filename": "0503"
     },
     {
       "title": "Vendeur de voitures souriant",
-      "series": "Divers",
+      "series": "Commerces",
       "filename": "0504"
     },
     {
@@ -2516,17 +2516,17 @@ var playerData = {
     },
     {
       "title": "Vieux clichés de films d'horreur",
-      "series": "Divers",
+      "series": "Conte d'horreur",
       "filename": "0511"
     },
     {
       "title": "Vincent plaqué par Jacinthe",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0512"
     },
     {
       "title": "Visite du neveu Nouveau né",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0513"
     },
     {
@@ -2536,12 +2536,12 @@ var playerData = {
     },
     {
       "title": "Visite inattendue",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0515"
     },
     {
       "title": "Visite indésirable",
-      "series": "Divers",
+      "series": "Vie quotidienne",
       "filename": "0516"
     },
     {

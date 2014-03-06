@@ -1,9 +1,11 @@
-<!DOCTYPE html><html lang="fr" prefix="og: http://ogp.me/ns#/">
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html lang="fr" prefix="og: http://ogp.me/ns#/">
 <head>
     <title>Le player du peuple</title>
-    
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="fragment" content="!">
+    <meta name="viewport" content="width=device-width">
     
     <meta property="og:title" content="Le player du peuple" id="meta-title">
     <meta property="og:url" content="http://abauchu.net/les2minutes/player.html">
@@ -16,10 +18,14 @@
     <meta property="fb:admins" content="550128282" />
     <meta property="fb:app_id" content="458243960860895" />
     
-    <link rel="stylesheet" href="les2Minutes.css" />
-    
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="les2Minutes-mobile.css" />
 
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script>
+        var Les2Minutes = Les2Minutes || {};
+        Les2Minutes.isMobile = true;
+        Les2Minutes.isRandom = true;
+    </script>
     <script src="les2Minutes.js"></script>
     <script src="les2MinutesData.js"></script>
 </head>
@@ -28,17 +34,15 @@
 <div id="main">
     <div id="header">
         <h1 id="title">Le player du peuple!</h1>
-        <button id="randomButton">Random!</button>
         
         <div id="controls">
             <p>
                 <span id="seriesTitle" style="">...</span> - <span id="soundTitle" style="">...</span>
             </p>
             
-            <img src="transparent.png" id="previousSound" />
-            <img src="transparent.png" id="playButton" />
-            <img src="transparent.png" id="pauseButton" />
-            <img src="transparent.png" id="nextSound" />
+            <button id="playButton">PLAY</button>
+            <button id="pauseButton">PAUSE</button>
+            <button id="randomButton">SUIVANT</button>
         </div>
         
         <div>
@@ -49,22 +53,9 @@
 				</p>
             </audio>
         </div>
-        
-        <div id="search">
-            <!-- <span>Filtre de recherche: </span> -->
-            <input type="text" id="filterText" name="filterText" onkeydown="onFilterChange()"
-                value="(Tapez votre recherche ici)"/>
-        </div>
-    </div>
-    
-    <div id="content">
-        <div id="episodeBoxList">
-            <!-- This is where the real content goes -->
-        </div>
-    </div>
     
     <div id="footer">
-        <span>Par <a href="http://abauchu.net/blog/">Albob</a>.</span>
+        <span>Par <a href="http://abauchu.net/">Albob</a>.</span>
     </div>
 </div>
  
