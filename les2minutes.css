@@ -118,6 +118,7 @@ body {
 }
 .seriesLabel {
     color: rgb(6, 59, 109);
+    cursor: pointer;
 }
 .played span {
     color: lightgrey !important;

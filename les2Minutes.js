@@ -168,6 +168,15 @@ function getEpisodeBoxClosure($episode_index) {
 	};
 }
 
+function getSeriesLabelClosure(i) {
+	return function() {
+		say('Clicked on series label (index:'+i+')');
+		$('#filterText')[0].value = playerData.episodes[i].series;
+		$('#filterText')[0].focus();
+		onFilterTimeout(); // force filter refresh
+	};
+}
+
 function pauseEpisode() {
 	say('Pausing episode...');
 	$('#audioPlayer')[0].pause();
@@ -210,6 +219,7 @@ function onPageLoaded() {
 			span = document.createElement("span");
 			span.appendChild(document.createTextNode(playerData.episodes[i].series));
 			$(span).addClass("seriesLabel");
+			$(span).on('click', getSeriesLabelClosure(i));
 			episode_box.appendChild(span);
 
 			span = document.createElement("span");
@@ -251,18 +261,23 @@ function onFilterTimeout() {
 	var i,
 		text_input,
 		episode_info,
-		episode_box;
+		episode_box,
+		query,
+		title,
+		series;
 
 	text_input = document.getElementById("filterText");
+	query = text_input.value.toLowerCase();
 
-	say('Filtering episodes with "' + text_input.value + '"');
+	say('Filtering episodes with "' + query + '"');
 
 	for (i = 0; i < playerData.episodes.length; i += 1) {
 		episode_info = playerData.episodes[i];
+		title = episode_info.title.toLowerCase();
+		series = episode_info.series.toLowerCase();
 		episode_box = document.getElementById(episode_info.filename);
 
-		if (text_input.value !== "" &&
-			episode_info.title.toLowerCase().indexOf(text_input.value.toLowerCase()) === -1) {
+		if (query !== "" && title.indexOf(query) === -1 && series.indexOf(query) === -1) {
 			episode_box.style.display = "none";
 		} else {
 			episode_box.style.display = "block";
