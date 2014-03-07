@@ -27,6 +27,9 @@ body {
     margin: 0px;
     padding: 5px;
 }
+#infoBox {
+    display: none;
+}
 #soundTitle {
     background-color: rgb(19, 79, 145);
     color: white;
@@ -35,6 +38,9 @@ body {
 #seriesTitle {
     background-color: rgb(19, 79, 100);
     color: white;
+}
+#audioPlayer {
+    padding-bottom: 24px;
 }
 #filterDiv {
     margin: 5px 5px 5px 5px;
@@ -57,8 +63,7 @@ body {
 /* Player controls */
 #randomButton {
     position: relative;
-    top: 96px;
-    left: -274px;
+    top: -34px;
 }
 #previousSound {
     background: url(player_buttons.png) -325px 0px;

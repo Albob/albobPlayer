@@ -52,14 +52,16 @@ function playEpisode($episode_index) {
 
 	say('Playing episode...');
 	episode_info = playerData.episodes[$episode_index];
-	player = document.getElementById("audioPlayer");
+	player = document.getElementById('audioPlayer');
 	clearSources(player);
 	loadSources(player, playerData.base_url, episode_info.filename);
 	player.play();
-	sound_title = document.getElementById("soundTitle");
+	sound_title = document.getElementById('soundTitle');
 	sound_title.innerHTML = episode_info.title;
-	series_title = document.getElementById("seriesTitle");
+	series_title = document.getElementById('seriesTitle');
 	series_title.innerHTML = episode_info.series;
+	$('#infoBox').css('display', 'inline');
+	onResize(null);
 
 	$('.played').removeClass('played');
 	$('#' + episode_info.filename).addClass('played');
