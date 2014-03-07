@@ -229,11 +229,22 @@ function onPageLoaded() {
 	onHashChange(playEpisode);
 	onResize(null);
 	$(window).on("hashchange", { callback : playEpisode }, onHashChange);
+
+	$('#filterText').on('focus', function() {
+		$('#defaultSearchText').animate({opacity: 0}, "fast");
+	});
+
+	$('#filterText').on('blur', function() {
+		if (document.getElementById("filterText").value == "")
+			$('#defaultSearchText').animate({opacity: 1}, "fast");
+		else
+			$('#defaultSearchText').animate({opacity: 0}, "fast");
+	});
+
 	$('#playButton').on('click', getEpisodeBoxClosure(0));
 	$('#pauseButton').on('click', pauseEpisode);
-	window.addEventListener("resize", onResize, false, 0, false);
-
 	$("#randomButton").on("click", onRandomButtonClicked);
+	window.addEventListener("resize", onResize, false, 0, false);
 }
 
 function onFilterTimeout() {

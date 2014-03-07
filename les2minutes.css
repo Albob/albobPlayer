@@ -42,22 +42,28 @@ body {
 #audioPlayer {
     padding-bottom: 24px;
 }
-#filterDiv {
-    margin: 5px 5px 5px 5px;
-    padding: 5px;
-}
 #filterText {
-    width: auto;
+    margin: 5px;
+    width: 98%;
+}
+#search {
+    text-align: left;
+    height: 30px;
+}
+#defaultSearchText {
+    pointer-events: none;
+    position: relative;
+    top: -24px;
+    left: 10px;
+    text-align: left;
+    font-style: italic;
+    color: grey;
 }
 #episodeBoxList {
     width: 100%;
     margin: 0px auto;
     height: 100%;
     overflow-y: auto;
-}
-#filterText {
-    margin: 5px;
-    width: 98%;
 }
 
 /* Player controls */
