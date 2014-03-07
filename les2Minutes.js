@@ -208,7 +208,6 @@ function onPageLoaded() {
 			span = document.createElement("span");
 			span.appendChild(document.createTextNode(playerData.episodes[i].series));
 			$(span).addClass("seriesLabel");
-			$(span).css("color", "0xFF0000");
 			episode_box.appendChild(span);
 
 			span = document.createElement("span");
@@ -216,6 +215,7 @@ function onPageLoaded() {
 			episode_box.appendChild(span);
 
 			span = document.createElement("span");
+			$(span).addClass('titleLabel');
 			span.appendChild(document.createTextNode(playerData.episodes[i].title));
 			episode_box.appendChild(span);
 

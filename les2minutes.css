@@ -28,9 +28,13 @@ body {
     padding: 5px;
 }
 #soundTitle {
-    background-color: #105F1D;
+    background-color: rgb(19, 79, 145);
     color: white;
     font-family: courier;
+}
+#seriesTitle {
+    background-color: rgb(19, 79, 100);
+    color: white;
 }
 #filterDiv {
     margin: 5px 5px 5px 5px;
@@ -54,7 +58,7 @@ body {
 #randomButton {
     position: relative;
     top: 96px;
-    left: -214px;
+    left: -274px;
 }
 #previousSound {
     background: url(player_buttons.png) -325px 0px;
@@ -64,25 +68,6 @@ body {
 }
 #previousSound:active {
     background: url(player_buttons.png) -325px -157px;
-}
-#playButton {
-    background: url(player_buttons.png) -163px 0px;
-}
-#playButton:hover {
-    background: url(player_buttons.png) -163px -78px;
-}
-#playButton:active {
-    background: url(player_buttons.png) -163px -157px;
-}
-#pauseSound {
-    display: none;
-    background: url(player_buttons.png) -400px 0px;
-}
-#pauseSound:hover {
-    background: url(player_buttons.png) -400px -78px;
-}
-#pauseSound:active {
-    background: url(player_buttons.png) -163px -157px;
 }
 #nextSound {
     background: url(player_buttons.png) -243px 0px;
@@ -117,10 +102,14 @@ body {
     background-color: #AAB0BC;
 }
 .played {
-    background-color: green !important;
+    background-color: rgb(19, 79, 145) !important;
+    color: white !important;
 }
-span.seriesLabel {
+.seriesLabel {
     color: rgb(6, 59, 109);
+}
+.played span {
+    color: lightgrey !important;
 }
 .playButton:hover {
     color: rgb(70, 120, 247);
