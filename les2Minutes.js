@@ -5,6 +5,8 @@
 var Les2Minutes = Les2Minutes || {};
 Les2Minutes.mustPrintStack = false;
 
+// Util ///////////////////////////////////////////////////////////////////////////////////////////
+
 function say($input, $use_alert) {
 	if (console && console.log) {
 		console.log($input);
@@ -16,6 +18,21 @@ function say($input, $use_alert) {
 		alert($input);
 	}
 }
+
+function normalizeText($text)
+{
+	var result;
+
+	result = $text.toLowerCase();
+	result = result.replace(/[àäâ]/g, "a");
+	result = result.replace(/[éèëê]/g, "e");
+	result = result.replace(/[ïîì]/g, "i");
+	result = result.replace(/[òôö]/g, "o");
+	result = result.replace(/[ùûü]/g, "u");
+	return result;
+}
+
+// !Util //////////////////////////////////////////////////////////////////////////////////////////
 
 function onResize() {
 	$("#content").height(window.innerHeight - ($("#header").height() + $("#footer").height() + 10));
@@ -259,22 +276,19 @@ function onPageLoaded() {
 
 function onFilterTimeout() {
 	var i,
-		text_input,
 		episode_info,
 		episode_box,
 		query,
 		title,
 		group;
 
-	text_input = document.getElementById("filterText");
-	query = text_input.value.toLowerCase();
-
+	query = normalizeText(document.getElementById("filterText").value);
 	say('Filtering episodes with "' + query + '"');
 
 	for (i = 0; i < playerData.episodes.length; i += 1) {
 		episode_info = playerData.episodes[i];
-		title = episode_info.title.toLowerCase();
-		group = episode_info.group.toLowerCase();
+		title = normalizeText(episode_info.title);
+		group = normalizeText(episode_info.group);
 		episode_box = document.getElementById(episode_info.id);
 
 		if (query !== "" && title.indexOf(query) === -1 && group.indexOf(query) === -1) {
