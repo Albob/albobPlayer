@@ -5,2624 +5,2624 @@ var playerData = {
   "episodes": [
     {
       "title": "2000 licenciements locaux",
-      "series": "Columbo du peuple",
-      "filename": "0007"
+      "group": "Columbo du peuple",
+      "id": "0007"
     },
     {
       "title": "Abonnement au magazine",
-      "series": "Vente par téléphone",
-      "filename": "0008"
+      "group": "Vente par téléphone",
+      "id": "0008"
     },
     {
       "title": "Abonnement au service de livraison",
-      "series": "Vente par téléphone",
-      "filename": "0009"
+      "group": "Vente par téléphone",
+      "id": "0009"
     },
     {
       "title": "Accueillir les JO",
-      "series": "Divers",
-      "filename": "0011"
+      "group": "Divers",
+      "id": "0011"
     },
     {
       "title": "Achat d'un Musicbox",
-      "series": "Divers",
-      "filename": "0012"
+      "group": "Divers",
+      "id": "0012"
     },
     {
       "title": "Acte de succession",
-      "series": "Columbo du peuple",
-      "filename": "0013"
+      "group": "Columbo du peuple",
+      "id": "0013"
     },
     {
       "title": "Agence de pub",
-      "series": "Agence de pub",
-      "filename": "0014"
+      "group": "Agence de pub",
+      "id": "0014"
     },
     {
       "title": "Aiguisage de couteaux",
-      "series": "Vente par téléphone",
-      "filename": "0015"
+      "group": "Vente par téléphone",
+      "id": "0015"
     },
     {
       "title": "Alcool, drogue ou quelque chose",
-      "series": "Série policière",
-      "filename": "0017"
+      "group": "Série policière",
+      "id": "0017"
     },
     {
       "title": "Alexandre consolé par Monsieur Bonheur",
-      "series": "Vie quotidienne",
-      "filename": "0019"
+      "group": "Vie quotidienne",
+      "id": "0019"
     },
     {
       "title": "Aléas du direct",
-      "series": "Emissions TV",
-      "filename": "0018"
+      "group": "Emissions TV",
+      "id": "0018"
     },
     {
       "title": "Anniversaire du patron",
-      "series": "Vie d'entreprise",
-      "filename": "0021"
+      "group": "Vie d'entreprise",
+      "id": "0021"
     },
     {
       "title": "Annonce avec bonne humeur",
-      "series": "Ca se dispute",
-      "filename": "0022"
+      "group": "Ca se dispute",
+      "id": "0022"
     },
     {
       "title": "Annonceur embêtant le perchiste",
-      "series": "Ca se dispute",
-      "filename": "0023"
+      "group": "Ca se dispute",
+      "id": "0023"
     },
     {
       "title": "Annonceur grippe",
-      "series": "Ca se dispute",
-      "filename": "0024"
+      "group": "Ca se dispute",
+      "id": "0024"
     },
     {
       "title": "Annonceur sans assurance",
-      "series": "La science et vous",
-      "filename": "0025"
+      "group": "La science et vous",
+      "id": "0025"
     },
     {
       "title": "Appel au directeur du FBI",
-      "series": "X-files du peuple",
-      "filename": "0028"
+      "group": "X-files du peuple",
+      "id": "0028"
     },
     {
       "title": "Appel à toute heure",
-      "series": "Urgences du peuple",
-      "filename": "0027"
+      "group": "Urgences du peuple",
+      "id": "0027"
     },
     {
       "title": "Arthur chanteur",
-      "series": "Chansons",
-      "filename": "0029"
+      "group": "Chansons",
+      "id": "0029"
     },
     {
       "title": "Arthur chanteur : le retour",
-      "series": "Chansons",
-      "filename": "0030"
+      "group": "Chansons",
+      "id": "0030"
     },
     {
       "title": "Artistes amateurs",
-      "series": "Emissions TV",
-      "filename": "0031"
+      "group": "Emissions TV",
+      "id": "0031"
     },
     {
       "title": "Artistes face aux fans",
-      "series": "Divers",
-      "filename": "0032"
+      "group": "Divers",
+      "id": "0032"
     },
     {
       "title": "Assurance automobile",
-      "series": "Vente par téléphone",
-      "filename": "0033"
+      "group": "Vente par téléphone",
+      "id": "0033"
     },
     {
       "title": "Attente de l'escouade des artificiers",
-      "series": "Série policière",
-      "filename": "0034"
+      "group": "Série policière",
+      "id": "0034"
     },
     {
       "title": "Audition d'un saxophonisteichanteur",
-      "series": "Auditions",
-      "filename": "0037"
+      "group": "Auditions",
+      "id": "0037"
     },
     {
       "title": "Audition de Robert Vol.1",
-      "series": "Auditions",
-      "filename": "0035"
+      "group": "Auditions",
+      "id": "0035"
     },
     {
       "title": "Audition de Robert Vol.2",
-      "series": "Auditions",
-      "filename": "0036"
+      "group": "Auditions",
+      "id": "0036"
     },
     {
       "title": "Autoradio",
-      "series": "Divers",
-      "filename": "0040"
+      "group": "Divers",
+      "id": "0040"
     },
     {
       "title": "Avalanche",
-      "series": "Sports",
-      "filename": "0041"
+      "group": "Sports",
+      "id": "0041"
     },
     {
       "title": "Avant braquage de banque",
-      "series": "Divers",
-      "filename": "0042"
+      "group": "Divers",
+      "id": "0042"
     },
     {
       "title": "Avion pour un congrès",
-      "series": "Théâtre de boulevard",
-      "filename": "0043"
+      "group": "Théâtre de boulevard",
+      "id": "0043"
     },
     {
       "title": "Avocats aux toilettes",
-      "series": "Tribunal du peuple",
-      "filename": "0044"
+      "group": "Tribunal du peuple",
+      "id": "0044"
     },
     {
       "title": "Avoir sa propre entreprise",
-      "series": "Divers",
-      "filename": "0045"
+      "group": "Divers",
+      "id": "0045"
     },
     {
       "title": "Bain de champagne",
-      "series": "Columbo du peuple",
-      "filename": "0046"
+      "group": "Columbo du peuple",
+      "id": "0046"
     },
     {
       "title": "Bichdui VS Bouchkui",
-      "series": "Informations Quizz",
-      "filename": "0048"
+      "group": "Informations Quizz",
+      "id": "0048"
     },
     {
       "title": "Bidru VS Drubi",
-      "series": "Informations Quizz",
-      "filename": "0049"
+      "group": "Informations Quizz",
+      "id": "0049"
     },
     {
       "title": "Billet de loterie gagnant",
-      "series": "Columbo du peuple",
-      "filename": "0050"
+      "group": "Columbo du peuple",
+      "id": "0050"
     },
     {
       "title": "Bonbons super-pétouche",
-      "series": "Monde de la pub",
-      "filename": "0051"
+      "group": "Monde de la pub",
+      "id": "0051"
     },
     {
       "title": "Bordua VS Dubois",
-      "series": "Informations Quizz",
-      "filename": "0052"
+      "group": "Informations Quizz",
+      "id": "0052"
     },
     {
       "title": "Bouillon de culture",
-      "series": "Emissions TV",
-      "filename": "0054"
+      "group": "Emissions TV",
+      "id": "0054"
     },
     {
       "title": "Boutique HiFi-vidéo-informatique",
-      "series": "Commerces",
-      "filename": "0055"
+      "group": "Commerces",
+      "id": "0055"
     },
     {
       "title": "Boutique New Age",
-      "series": "Commerces",
-      "filename": "0056"
+      "group": "Commerces",
+      "id": "0056"
     },
     {
       "title": "Brian de Palma",
-      "series": "Cinéma",
-      "filename": "0057"
+      "group": "Cinéma",
+      "id": "0057"
     },
     {
       "title": "Bug de l'an 2000",
-      "series": "Vie quotidienne",
-      "filename": "0058"
+      "group": "Vie quotidienne",
+      "id": "0058"
     },
     {
       "title": "C'est Fabrice",
-      "series": "Vie d'entreprise",
-      "filename": "0072"
+      "group": "Vie d'entreprise",
+      "id": "0072"
     },
     {
       "title": "C'est beau",
-      "series": "Chansons",
-      "filename": "0070"
+      "group": "Chansons",
+      "id": "0070"
     },
     {
       "title": "C'est belle une fille",
-      "series": "Chansons",
-      "filename": "0071"
+      "group": "Chansons",
+      "id": "0071"
     },
     {
       "title": "C'est la vie",
-      "series": "Chansons",
-      "filename": "0073"
+      "group": "Chansons",
+      "id": "0073"
     },
     {
       "title": "C'est une autre journée",
-      "series": "Chansons",
-      "filename": "0075"
+      "group": "Chansons",
+      "id": "0075"
     },
     {
       "title": "Cadavre décapité",
-      "series": "Série policière",
-      "filename": "0059"
+      "group": "Série policière",
+      "id": "0059"
     },
     {
       "title": "Cadeau de Saint-Valentin",
-      "series": "Commerces",
-      "filename": "0060"
+      "group": "Commerces",
+      "id": "0060"
     },
     {
       "title": "Caméraman viré",
-      "series": "Emissions TV",
-      "filename": "0061"
+      "group": "Emissions TV",
+      "id": "0061"
     },
     {
       "title": "Carole au bout du fil",
-      "series": "Radio associative",
-      "filename": "0062"
+      "group": "Radio associative",
+      "id": "0062"
     },
     {
       "title": "Carrière de chanteur",
-      "series": "Artistes",
-      "filename": "0064"
+      "group": "Artistes",
+      "id": "0064"
     },
     {
       "title": "Cassette de répondeur",
-      "series": "Vie quotidienne",
-      "filename": "0065"
+      "group": "Vie quotidienne",
+      "id": "0065"
     },
     {
       "title": "Cassette sur le chariot",
-      "series": "Urgences du peuple",
-      "filename": "0066"
+      "group": "Urgences du peuple",
+      "id": "0066"
     },
     {
       "title": "Censure",
-      "series": "Chansons",
-      "filename": "0069"
+      "group": "Chansons",
+      "id": "0069"
     },
     {
       "title": "Cette petite chose qui te sort du nez",
-      "series": "Chansons",
-      "filename": "0076"
+      "group": "Chansons",
+      "id": "0076"
     },
     {
       "title": "Changement d'heure",
-      "series": "Histoire",
-      "filename": "0077"
+      "group": "Histoire",
+      "id": "0077"
     },
     {
       "title": "Chanson romantique",
-      "series": "Chansons",
-      "filename": "0078"
+      "group": "Chansons",
+      "id": "0078"
     },
     {
       "title": "Chanteur de grivois",
-      "series": "Artistes",
-      "filename": "0079"
+      "group": "Artistes",
+      "id": "0079"
     },
     {
       "title": "Chantier de construction",
-      "series": "Série policière",
-      "filename": "0080"
+      "group": "Série policière",
+      "id": "0080"
     },
     {
       "title": "Charlie et ses oeillères",
-      "series": "Radio associative",
-      "filename": "0081"
+      "group": "Radio associative",
+      "id": "0081"
     },
     {
       "title": "Chaussures pour Nathalie",
-      "series": "Commerces",
-      "filename": "0082"
+      "group": "Commerces",
+      "id": "0082"
     },
     {
       "title": "Chercher un copain",
-      "series": "Vie d'entreprise",
-      "filename": "0083"
+      "group": "Vie d'entreprise",
+      "id": "0083"
     },
     {
       "title": "Chiasson VS Dupré",
-      "series": "Informations Quizz",
-      "filename": "0084"
+      "group": "Informations Quizz",
+      "id": "0084"
     },
     {
       "title": "Chirurgie magique",
-      "series": "Vente par téléphone",
-      "filename": "0085"
+      "group": "Vente par téléphone",
+      "id": "0085"
     },
     {
       "title": "Choc électrique sur le coude",
-      "series": "Chansons",
-      "filename": "0086"
+      "group": "Chansons",
+      "id": "0086"
     },
     {
       "title": "Christopher amoché sur la plage",
-      "series": "Série policière",
-      "filename": "0087"
+      "group": "Série policière",
+      "id": "0087"
     },
     {
       "title": "City Zoiseaux",
-      "series": "Radio positive",
-      "filename": "0088"
+      "group": "Radio positive",
+      "id": "0088"
     },
     {
       "title": "Club vidéo",
-      "series": "Vente par téléphone",
-      "filename": "0089"
+      "group": "Vente par téléphone",
+      "id": "0089"
     },
     {
       "title": "Cocktail avec un fournisseur",
-      "series": "Vie d'entreprise",
-      "filename": "0090"
+      "group": "Vie d'entreprise",
+      "id": "0090"
     },
     {
       "title": "Copie du testament de sa femme",
-      "series": "Columbo du peuple",
-      "filename": "0106"
+      "group": "Columbo du peuple",
+      "id": "0106"
     },
     {
       "title": "Femme machiavélique",
-      "series": "Columbo du peuple",
-      "filename": "0166"
+      "group": "Columbo du peuple",
+      "id": "0166"
     },
     {
       "title": "Georges et Robert jouent au crocket",
-      "series": "Columbo du peuple",
-      "filename": "0183"
+      "group": "Columbo du peuple",
+      "id": "0183"
     },
     {
       "title": "Georges, Robert et leur chanson",
-      "series": "Columbo du peuple",
-      "filename": "0184"
+      "group": "Columbo du peuple",
+      "id": "0184"
     },
     {
       "title": "Madeleine ne boit que du thé",
-      "series": "Columbo du peuple",
-      "filename": "0320"
+      "group": "Columbo du peuple",
+      "id": "0320"
     },
     {
       "title": "Meurtre très décidé",
-      "series": "Columbo du peuple",
-      "filename": "0340"
+      "group": "Columbo du peuple",
+      "id": "0340"
     },
     {
       "title": "Petite maison perdue dans les bois",
-      "series": "Columbo du peuple",
-      "filename": "0383"
+      "group": "Columbo du peuple",
+      "id": "0383"
     },
     {
       "title": "Sam revient passer le weekend",
-      "series": "Columbo du peuple",
-      "filename": "0449"
+      "group": "Columbo du peuple",
+      "id": "0449"
     },
     {
       "title": "Comité de visionnage",
-      "series": "Cinéma",
-      "filename": "0092"
+      "group": "Cinéma",
+      "id": "0092"
     },
     {
       "title": "Commande d'Airbus annulée",
-      "series": "Columbo du peuple",
-      "filename": "0093"
+      "group": "Columbo du peuple",
+      "id": "0093"
     },
     {
       "title": "Commentaires de F1",
-      "series": "Sports",
-      "filename": "0094"
+      "group": "Sports",
+      "id": "0094"
     },
     {
       "title": "Commentateurs de foot en retard",
-      "series": "Sports",
-      "filename": "0095"
+      "group": "Sports",
+      "id": "0095"
     },
     {
       "title": "Comédies et dramatiques musicales",
-      "series": "Divers",
-      "filename": "0091"
+      "group": "Divers",
+      "id": "0091"
     },
     {
       "title": "Concentration",
-      "series": "Monde de la pub",
-      "filename": "0096"
+      "group": "Monde de la pub",
+      "id": "0096"
     },
     {
       "title": "Conférence pour désigner le président",
-      "series": "Vie d'entreprise",
-      "filename": "0097"
+      "group": "Vie d'entreprise",
+      "id": "0097"
     },
     {
       "title": "Consultation d'avocats au cas ou",
-      "series": "Divers",
-      "filename": "0098"
+      "group": "Divers",
+      "id": "0098"
     },
     {
       "title": "Consultation du répondeur",
-      "series": "Vie quotidienne",
-      "filename": "0099"
+      "group": "Vie quotidienne",
+      "id": "0099"
     },
     {
       "title": "Consulter un psychologue de couple",
-      "series": "Divers",
-      "filename": "0100"
+      "group": "Divers",
+      "id": "0100"
     },
     {
       "title": "Contrôleur aérien",
-      "series": "Vie d'entreprise",
-      "filename": "0104"
+      "group": "Vie d'entreprise",
+      "id": "0104"
     },
     {
       "title": "Conversations en taxi",
-      "series": "Vie quotidienne",
-      "filename": "0105"
+      "group": "Vie quotidienne",
+      "id": "0105"
     },
     {
       "title": "Corps carbonisé dans une ferme",
-      "series": "X-files du peuple",
-      "filename": "0108"
+      "group": "X-files du peuple",
+      "id": "0108"
     },
     {
       "title": "Corps dans le potager de la ferme",
-      "series": "Tribunal du peuple",
-      "filename": "0109"
+      "group": "Tribunal du peuple",
+      "id": "0109"
     },
     {
       "title": "Corps dans une malle dans le jardin",
-      "series": "Tribunal du peuple",
-      "filename": "0110"
+      "group": "Tribunal du peuple",
+      "id": "0110"
     },
     {
       "title": "Crickets sauve le monde",
-      "series": "Série policière",
-      "filename": "0112"
+      "group": "Série policière",
+      "id": "0112"
     },
     {
       "title": "Critique de journal",
-      "series": "Vie d'entreprise",
-      "filename": "0113"
+      "group": "Vie d'entreprise",
+      "id": "0113"
     },
     {
       "title": "Culture",
-      "series": "Emissions TV",
-      "filename": "0114"
+      "group": "Emissions TV",
+      "id": "0114"
     },
     {
       "title": "Albert Einstein",
-      "series": "Célébrités mortes",
-      "filename": "0016"
+      "group": "Célébrités mortes",
+      "id": "0016"
     },
     {
       "title": "Dames de France Télécom",
-      "series": "Divers",
-      "filename": "0115"
+      "group": "Divers",
+      "id": "0115"
     },
     {
       "title": "Dans un bistrot complètement saoul",
-      "series": "Tribunal du peuple",
-      "filename": "0117"
+      "group": "Tribunal du peuple",
+      "id": "0117"
     },
     {
       "title": "Demande d'emprunt à la banque",
-      "series": "Vie quotidienne",
-      "filename": "0122"
+      "group": "Vie quotidienne",
+      "id": "0122"
     },
     {
       "title": "Destin du mois",
-      "series": "Vie quotidienne",
-      "filename": "0124"
+      "group": "Vie quotidienne",
+      "id": "0124"
     },
     {
       "title": "Dette",
-      "series": "Vie quotidienne",
-      "filename": "0126"
+      "group": "Vie quotidienne",
+      "id": "0126"
     },
     {
       "title": "Dictée de Bernard Pivot",
-      "series": "Emissions TV",
-      "filename": "0127"
+      "group": "Emissions TV",
+      "id": "0127"
     },
     {
       "title": "Didier et le grand argentier",
-      "series": "Emissions TV",
-      "filename": "0128"
+      "group": "Emissions TV",
+      "id": "0128"
     },
     {
       "title": "Dieu fait sa pub",
-      "series": "Agence de pub",
-      "filename": "0129"
+      "group": "Agence de pub",
+      "id": "0129"
     },
     {
       "title": "Diner d'affaires",
-      "series": "Vie d'entreprise",
-      "filename": "0130"
+      "group": "Vie d'entreprise",
+      "id": "0130"
     },
     {
       "title": "Discours présidentiel de Noël",
-      "series": "Politique",
-      "filename": "0131"
+      "group": "Politique",
+      "id": "0131"
     },
     {
       "title": "Discussion de couple",
-      "series": "Vie quotidienne",
-      "filename": "0132"
+      "group": "Vie quotidienne",
+      "id": "0132"
     },
     {
       "title": "Disque à domicile",
-      "series": "Vente par téléphone",
-      "filename": "0133"
+      "group": "Vente par téléphone",
+      "id": "0133"
     },
     {
       "title": "Distraite par un doute",
-      "series": "Théâtre de boulevard",
-      "filename": "0134"
+      "group": "Théâtre de boulevard",
+      "id": "0134"
     },
     {
       "title": "Distributeur médical",
-      "series": "Divers",
-      "filename": "0135"
+      "group": "Divers",
+      "id": "0135"
     },
     {
       "title": "Don Juan",
-      "series": "Divers",
-      "filename": "0136"
+      "group": "Divers",
+      "id": "0136"
     },
     {
       "title": "Dossiers mélangés",
-      "series": "Urgences du peuple",
-      "filename": "0137"
+      "group": "Urgences du peuple",
+      "id": "0137"
     },
     {
       "title": "Dossiers secrets télévisés",
-      "series": "X-files du peuple",
-      "filename": "0138"
+      "group": "X-files du peuple",
+      "id": "0138"
     },
     {
       "title": "Douze opérations",
-      "series": "Urgences du peuple",
-      "filename": "0139"
+      "group": "Urgences du peuple",
+      "id": "0139"
     },
     {
       "title": "Drague sur Internet",
-      "series": "Internet",
-      "filename": "0140"
+      "group": "Internet",
+      "id": "0140"
     },
     {
       "title": "Duca VS Cadu",
-      "series": "Informations Quizz",
-      "filename": "0141"
+      "group": "Informations Quizz",
+      "id": "0141"
     },
     {
       "title": "Dur-dur mon CD",
-      "series": "Chansons",
-      "filename": "0142"
+      "group": "Chansons",
+      "id": "0142"
     },
     {
       "title": "Débranchement des facultés cervicales",
-      "series": "Urgences du peuple",
-      "filename": "0118"
+      "group": "Urgences du peuple",
+      "id": "0118"
     },
     {
       "title": "Défaitisme",
-      "series": "Vie d'entreprise",
-      "filename": "0119"
+      "group": "Vie d'entreprise",
+      "id": "0119"
     },
     {
       "title": "Défilé du 14 juillet",
-      "series": "Espionnage",
-      "filename": "0120"
+      "group": "Espionnage",
+      "id": "0120"
     },
     {
       "title": "Déguisé en Robocop et Lewinsky",
-      "series": "Conte d'horreur",
-      "filename": "0121"
+      "group": "Conte d'horreur",
+      "id": "0121"
     },
     {
       "title": "Déposer des brevets",
-      "series": "Divers",
-      "filename": "0123"
+      "group": "Divers",
+      "id": "0123"
     },
     {
       "title": "Détournement via Internet",
-      "series": "Tribunal du peuple",
-      "filename": "0125"
+      "group": "Tribunal du peuple",
+      "id": "0125"
     },
     {
       "title": "Calembours Stupides! avec Michael Jackson, Bill Clinton",
-      "series": "Emissions TV",
-      "filename": "0342"
+      "group": "Emissions TV",
+      "id": "0342"
     },
     {
       "title": "Paroles et...",
-      "series": "Emissions TV",
-      "filename": "0373"
+      "group": "Emissions TV",
+      "id": "0373"
     },
     {
       "title": "Je bricole",
-      "series": "Emissions TV",
-      "filename": "0216"
+      "group": "Emissions TV",
+      "id": "0216"
     },
     {
       "title": "Jumeaux triplés",
-      "series": "Emissions TV",
-      "filename": "0226"
+      "group": "Emissions TV",
+      "id": "0226"
     },
     {
       "title": "Les espaces verts",
-      "series": "Emissions TV",
-      "filename": "0287"
+      "group": "Emissions TV",
+      "id": "0287"
     },
     {
       "title": "Les esprit-se-rencontrent-tateurs",
-      "series": "Emissions TV",
-      "filename": "0288"
+      "group": "Emissions TV",
+      "id": "0288"
     },
     {
       "title": "Sports et loisirs",
-      "series": "Emissions TV",
-      "filename": "0466"
+      "group": "Emissions TV",
+      "id": "0466"
     },
     {
       "title": "Employé à la sueur de mon front",
-      "series": "Vie d'entreprise",
-      "filename": "0145"
+      "group": "Vie d'entreprise",
+      "id": "0145"
     },
     {
       "title": "Empreintes très relevées",
-      "series": "Série policière",
-      "filename": "0146"
+      "group": "Série policière",
+      "id": "0146"
     },
     {
       "title": "En panne à Halloween",
-      "series": "Conte d'horreur",
-      "filename": "0153"
+      "group": "Conte d'horreur",
+      "id": "0153"
     },
     {
       "title": "Encercler le secteur",
-      "series": "Série policière",
-      "filename": "0148"
+      "group": "Série policière",
+      "id": "0148"
     },
     {
       "title": "Enduire de marinade",
-      "series": "Radio Sexe",
-      "filename": "0149"
+      "group": "Radio Sexe",
+      "id": "0149"
     },
     {
       "title": "Enfants abandonnés",
-      "series": "Ca se dispute",
-      "filename": "0150"
+      "group": "Ca se dispute",
+      "id": "0150"
     },
     {
       "title": "Enlever un morceau des intestins",
-      "series": "Urgences du peuple",
-      "filename": "0152"
+      "group": "Urgences du peuple",
+      "id": "0152"
     },
     {
       "title": "Enlèvement du fils Dupont",
-      "series": "Divers",
-      "filename": "0151"
+      "group": "Divers",
+      "id": "0151"
     },
     {
       "title": "Enregistrement de pub",
-      "series": "Divers",
-      "filename": "0154"
+      "group": "Divers",
+      "id": "0154"
     },
     {
       "title": "Enterrement",
-      "series": "Vie quotidienne",
-      "filename": "0155"
+      "group": "Vie quotidienne",
+      "id": "0155"
     },
     {
       "title": "Entretien d'embauche",
-      "series": "Vie d'entreprise",
-      "filename": "0156"
+      "group": "Vie d'entreprise",
+      "id": "0156"
     },
     {
       "title": "Entretien d'embauche d'une femme",
-      "series": "Vie d'entreprise",
-      "filename": "0157"
+      "group": "Vie d'entreprise",
+      "id": "0157"
     },
     {
       "title": "Entretien paysager",
-      "series": "Vente par téléphone",
-      "filename": "0158"
+      "group": "Vente par téléphone",
+      "id": "0158"
     },
     {
       "title": "Espion à bord",
-      "series": "Star Trek du peuple",
-      "filename": "0159"
+      "group": "Star Trek du peuple",
+      "id": "0159"
     },
     {
       "title": "Et pourtant",
-      "series": "Divers",
-      "filename": "0160"
+      "group": "Divers",
+      "id": "0160"
     },
     {
       "title": "Expédition chez les Incas",
-      "series": "Divers",
-      "filename": "0161"
+      "group": "Divers",
+      "id": "0161"
     },
     {
       "title": "Faire appel à un détective privé",
-      "series": "Divers",
-      "filename": "0162"
+      "group": "Divers",
+      "id": "0162"
     },
     {
       "title": "Fan de Georges Biburli",
-      "series": "Divers",
-      "filename": "0163"
+      "group": "Divers",
+      "id": "0163"
     },
     {
       "title": "Fanny et Pipi",
-      "series": "Emissions TV",
-      "filename": "0164"
+      "group": "Emissions TV",
+      "id": "0164"
     },
     {
       "title": "Faut pas",
-      "series": "Chansons",
-      "filename": "0165"
+      "group": "Chansons",
+      "id": "0165"
     },
     {
       "title": "Femme partie avec une valise",
-      "series": "Urgences du peuple",
-      "filename": "0167"
+      "group": "Urgences du peuple",
+      "id": "0167"
     },
     {
       "title": "Feuilleton américain",
-      "series": "Divers",
-      "filename": "0168"
+      "group": "Divers",
+      "id": "0168"
     },
     {
       "title": "Film avec effets spéciaux",
-      "series": "X-files du peuple",
-      "filename": "0169"
+      "group": "X-files du peuple",
+      "id": "0169"
     },
     {
       "title": "Partie 1",
-      "series": "Cinéma",
-      "filename": "0170"
+      "group": "Cinéma",
+      "id": "0170"
     },
     {
       "title": "Partie 2",
-      "series": "Cinéma",
-      "filename": "0171"
+      "group": "Cinéma",
+      "id": "0171"
     },
     {
       "title": "Finale en musique jazz",
-      "series": "Leçons de musique",
-      "filename": "0172"
+      "group": "Leçons de musique",
+      "id": "0172"
     },
     {
       "title": "Finales en chanson",
-      "series": "Divers",
-      "filename": "0173"
+      "group": "Divers",
+      "id": "0173"
     },
     {
       "title": "Formules de politesse",
-      "series": "Vie quotidienne",
-      "filename": "0174"
+      "group": "Vie quotidienne",
+      "id": "0174"
     },
     {
       "title": "Gagner 12 millions",
-      "series": "Divers",
-      "filename": "0179"
+      "group": "Divers",
+      "id": "0179"
     },
     {
       "title": "Gagner au loto",
-      "series": "Divers",
-      "filename": "0180"
+      "group": "Divers",
+      "id": "0180"
     },
     {
       "title": "Gardien d'un condamné",
-      "series": "Divers",
-      "filename": "0182"
+      "group": "Divers",
+      "id": "0182"
     },
     {
       "title": "Gardien de sécurité",
-      "series": "Divers",
-      "filename": "0181"
+      "group": "Divers",
+      "id": "0181"
     },
     {
       "title": "Gestion des stocks",
-      "series": "Divers",
-      "filename": "0185"
+      "group": "Divers",
+      "id": "0185"
     },
     {
       "title": "Grand manitou",
-      "series": "Divers",
-      "filename": "0186"
+      "group": "Divers",
+      "id": "0186"
     },
     {
       "title": "Gueule de bois",
-      "series": "Divers",
-      "filename": "0187"
+      "group": "Divers",
+      "id": "0187"
     },
     {
       "title": "Heure de la retraite pour Étienne",
-      "series": "Divers",
-      "filename": "0189"
+      "group": "Divers",
+      "id": "0189"
     },
     {
       "title": "Histoire américaine",
-      "series": "Chansons",
-      "filename": "0190"
+      "group": "Chansons",
+      "id": "0190"
     },
     {
       "title": "Histoire de la langue française",
-      "series": "Histoire",
-      "filename": "0191"
+      "group": "Histoire",
+      "id": "0191"
     },
     {
       "title": "Histoire sur répondeur",
-      "series": "Vie quotidienne",
-      "filename": "0192"
+      "group": "Vie quotidienne",
+      "id": "0192"
     },
     {
       "title": "Historique des jeux vidéos",
-      "series": "Histoire",
-      "filename": "0193"
+      "group": "Histoire",
+      "id": "0193"
     },
     {
       "title": "Hommage à Jacques Martin",
-      "series": "Chansons",
-      "filename": "0194"
+      "group": "Chansons",
+      "id": "0194"
     },
     {
       "title": "Homme trompé",
-      "series": "Théâtre de boulevard",
-      "filename": "0195"
+      "group": "Théâtre de boulevard",
+      "id": "0195"
     },
     {
       "title": "Hôpital complètement engorgé",
-      "series": "Urgences du peuple",
-      "filename": "0196"
+      "group": "Urgences du peuple",
+      "id": "0196"
     },
     {
       "title": "Il ne fumait pas la pipe",
-      "series": "Radio associative",
-      "filename": "0197"
+      "group": "Radio associative",
+      "id": "0197"
     },
     {
       "title": "Ils peuvent remettre leur pantalon",
-      "series": "Urgences du peuple",
-      "filename": "0198"
+      "group": "Urgences du peuple",
+      "id": "0198"
     },
     {
       "title": "Inspecteur de police",
-      "series": "Série policière",
-      "filename": "0200"
+      "group": "Série policière",
+      "id": "0200"
     },
     {
       "title": "Inspiration",
-      "series": "Divers",
-      "filename": "0201"
+      "group": "Divers",
+      "id": "0201"
     },
     {
       "title": "Interrogateur peu confiant",
-      "series": "Série policière",
-      "filename": "0202"
+      "group": "Série policière",
+      "id": "0202"
     },
     {
       "title": "Interruptions de conversation",
-      "series": "Divers",
-      "filename": "0203"
+      "group": "Divers",
+      "id": "0203"
     },
     {
       "title": "Interview d'un ministre",
-      "series": "Divers",
-      "filename": "0206"
+      "group": "Divers",
+      "id": "0206"
     },
     {
       "title": "Interview de Bill Gates",
-      "series": "Divers",
-      "filename": "0204"
+      "group": "Divers",
+      "id": "0204"
     },
     {
       "title": "Interview de Jeff Bretelles",
-      "series": "Divers",
-      "filename": "0205"
+      "group": "Divers",
+      "id": "0205"
     },
     {
       "title": "Interview de criminels",
-      "series": "Divers",
-      "filename": "0209"
+      "group": "Divers",
+      "id": "0209"
     },
     {
       "title": "Interview politique par Delarive",
-      "series": "Divers",
-      "filename": "0208"
+      "group": "Divers",
+      "id": "0208"
     },
     {
       "title": "Interviewer interviewé",
-      "series": "Divers",
-      "filename": "0207"
+      "group": "Divers",
+      "id": "0207"
     },
     {
       "title": "Introduction aux 2 minutes du peuple",
-      "series": "Divers",
-      "filename": "0210"
+      "group": "Divers",
+      "id": "0210"
     },
     {
       "title": "Inventions",
-      "series": "Histoire",
-      "filename": "0211"
+      "group": "Histoire",
+      "id": "0211"
     },
     {
       "title": "Invités divisés",
-      "series": "Ca se dispute",
-      "filename": "0212"
+      "group": "Ca se dispute",
+      "id": "0212"
     },
     {
       "title": "J'aime pas ça",
-      "series": "Chansons",
-      "filename": "0214"
+      "group": "Chansons",
+      "id": "0214"
     },
     {
       "title": "J'me casse la gueule en direct",
-      "series": "Emissions TV",
-      "filename": "0221"
+      "group": "Emissions TV",
+      "id": "0221"
     },
     {
       "title": "J'suis un raté",
-      "series": "Chansons",
-      "filename": "0225"
+      "group": "Chansons",
+      "id": "0225"
     },
     {
       "title": "Approche des côtes américaines",
-      "series": "Jacques Cartier",
-      "filename": "0005"
+      "group": "Jacques Cartier",
+      "id": "0005"
     },
     {
       "title": "Cap droit devant",
-      "series": "Jacques Cartier",
-      "filename": "0004"
+      "group": "Jacques Cartier",
+      "id": "0004"
     },
     {
       "title": "Débarquement",
-      "series": "Jacques Cartier",
-      "filename": "0006"
+      "group": "Jacques Cartier",
+      "id": "0006"
     },
     {
       "title": "Départ de France",
-      "series": "Jacques Cartier",
-      "filename": "0003"
+      "group": "Jacques Cartier",
+      "id": "0003"
     },
     {
       "title": "Envoyé en mission",
-      "series": "Jacques Cartier",
-      "filename": "0002"
+      "group": "Jacques Cartier",
+      "id": "0002"
     },
     {
       "title": " 1534",
-      "series": "Jacques Cartier",
-      "filename": "0213"
+      "group": "Jacques Cartier",
+      "id": "0213"
     },
     {
       "title": "Jamais touché un ordinateur",
-      "series": "Commerces",
-      "filename": "0215"
+      "group": "Commerces",
+      "id": "0215"
     },
     {
       "title": "Je passe mon temps",
-      "series": "Emissions TV",
-      "filename": "0217"
+      "group": "Emissions TV",
+      "id": "0217"
     },
     {
       "title": "Je t'aime, tu m'aimes",
-      "series": "Emissions TV",
-      "filename": "0218"
+      "group": "Emissions TV",
+      "id": "0218"
     },
     {
       "title": "Jeu de phrases, jeu de nazes",
-      "series": "Divers",
-      "filename": "0219"
+      "group": "Divers",
+      "id": "0219"
     },
     {
       "title": "Jeux vidéos en 3D",
-      "series": "Divers",
-      "filename": "0220"
+      "group": "Divers",
+      "id": "0220"
     },
     {
       "title": "John Glen",
-      "series": "NASA du peuple",
-      "filename": "0222"
+      "group": "NASA du peuple",
+      "id": "0222"
     },
     {
       "title": "Jouer aux médias",
-      "series": "Série policière",
-      "filename": "0223"
+      "group": "Série policière",
+      "id": "0223"
     },
     {
       "title": "Journal télévisé",
-      "series": "Divers",
-      "filename": "0224"
+      "group": "Divers",
+      "id": "0224"
     },
     {
       "title": "Kerbout VS Berkout",
-      "series": "Informations Quizz",
-      "filename": "0227"
+      "group": "Informations Quizz",
+      "id": "0227"
     },
     {
       "title": "L'accordéon",
-      "series": "Leçons de musique",
-      "filename": "0230"
+      "group": "Leçons de musique",
+      "id": "0230"
     },
     {
       "title": "L'arnaque automobile",
-      "series": "Commerces",
-      "filename": "0246"
+      "group": "Commerces",
+      "id": "0246"
     },
     {
       "title": "L'arrivée d'Internet",
-      "series": "Internet",
-      "filename": "0247"
+      "group": "Internet",
+      "id": "0247"
     },
     {
       "title": "L'ennui porte conseil",
-      "series": "Emissions TV",
-      "filename": "0264"
+      "group": "Emissions TV",
+      "id": "0264"
     },
     {
       "title": "L'impresario",
-      "series": "Divers",
-      "filename": "0310"
+      "group": "Divers",
+      "id": "0310"
     },
     {
       "title": "L'interphone",
-      "series": "Divers",
-      "filename": "0311"
+      "group": "Divers",
+      "id": "0311"
     },
     {
       "title": "L'oiseau Sophie",
-      "series": "Série policière",
-      "filename": "0314"
+      "group": "Série policière",
+      "id": "0314"
     },
     {
       "title": "L'orgue",
-      "series": "Leçons de musique",
-      "filename": "0315"
+      "group": "Leçons de musique",
+      "id": "0315"
     },
     {
       "title": "L'émotion dans les messages",
-      "series": "Divers",
-      "filename": "0263"
+      "group": "Divers",
+      "id": "0263"
     },
     {
       "title": "La PS2",
-      "series": "Divers",
-      "filename": "0243"
+      "group": "Divers",
+      "id": "0243"
     },
     {
       "title": "La banque",
-      "series": "Divers",
-      "filename": "0228"
+      "group": "Divers",
+      "id": "0228"
     },
     {
       "title": "La batterie",
-      "series": "Leçons de musique",
-      "filename": "0229"
+      "group": "Leçons de musique",
+      "id": "0229"
     },
     {
       "title": "La contrebasse",
-      "series": "Leçons de musique",
-      "filename": "0231"
+      "group": "Leçons de musique",
+      "id": "0231"
     },
     {
       "title": "La culture et vous",
-      "series": "Divers",
-      "filename": "0232"
+      "group": "Divers",
+      "id": "0232"
     },
     {
       "title": "La fréquence du peuple",
-      "series": "Radio associative",
-      "filename": "0234"
+      "group": "Radio associative",
+      "id": "0234"
     },
     {
       "title": "La fureur",
-      "series": "Emissions TV",
-      "filename": "0235"
+      "group": "Emissions TV",
+      "id": "0235"
     },
     {
       "title": "La fête de Noël",
-      "series": "Emissions TV",
-      "filename": "0233"
+      "group": "Emissions TV",
+      "id": "0233"
     },
     {
       "title": "La guitare",
-      "series": "Leçons de musique",
-      "filename": "0236"
+      "group": "Leçons de musique",
+      "id": "0236"
     },
     {
       "title": "1er épisode: Héritage",
-      "series": "La maison Slangster",
-      "filename": "0188"
+      "group": "La maison Slangster",
+      "id": "0188"
     },
     {
       "title": "Ambiance détestable",
-      "series": "La maison Slangster",
-      "filename": "0020"
+      "group": "La maison Slangster",
+      "id": "0020"
     },
     {
       "title": "L'exorciste",
-      "series": "La maison Slangster",
-      "filename": "0308"
+      "group": "La maison Slangster",
+      "id": "0308"
     },
     {
       "title": "Maison à vendre",
-      "series": "La maison Slangster",
-      "filename": "0321"
+      "group": "La maison Slangster",
+      "id": "0321"
     },
     {
       "title": "Parler à moitié",
-      "series": "La maison Slangster",
-      "filename": "0372"
+      "group": "La maison Slangster",
+      "id": "0372"
     },
     {
       "title": "Un cygne sur l'étang",
-      "series": "La maison Slangster",
-      "filename": "0491"
+      "group": "La maison Slangster",
+      "id": "0491"
     },
     {
       "title": "La messe",
-      "series": "Divers",
-      "filename": "0238"
+      "group": "Divers",
+      "id": "0238"
     },
     {
       "title": "La modernisation",
-      "series": "Vie d'entreprise",
-      "filename": "0239"
+      "group": "Vie d'entreprise",
+      "id": "0239"
     },
     {
       "title": "La musique japonaise",
-      "series": "Leçons de musique",
-      "filename": "0240"
+      "group": "Leçons de musique",
+      "id": "0240"
     },
     {
       "title": "La potiche",
-      "series": "Cinéma",
-      "filename": "0241"
+      "group": "Cinéma",
+      "id": "0241"
     },
     {
       "title": "La première d'un groupe",
-      "series": "Divers",
-      "filename": "0242"
+      "group": "Divers",
+      "id": "0242"
     },
     {
       "title": "La radio à l'époque de la guerre",
-      "series": "Divers",
-      "filename": "0244"
+      "group": "Divers",
+      "id": "0244"
     },
     {
       "title": "La rentrée des classes",
-      "series": "Divers",
-      "filename": "0245"
+      "group": "Divers",
+      "id": "0245"
     },
     {
       "title": "La santé de nos parents",
-      "series": "Divers",
-      "filename": "0248"
+      "group": "Divers",
+      "id": "0248"
     },
     {
       "title": "La technologie",
-      "series": "Chansons",
-      "filename": "0249"
+      "group": "Chansons",
+      "id": "0249"
     },
     {
       "title": "La télé en direct",
-      "series": "Emissions TV",
-      "filename": "0250"
+      "group": "Emissions TV",
+      "id": "0250"
     },
     {
       "title": "La vie en sous-marin",
-      "series": "Divers",
-      "filename": "0252"
+      "group": "Divers",
+      "id": "0252"
     },
     {
       "title": "La voix humaine",
-      "series": "Leçons de musique",
-      "filename": "0253"
+      "group": "Leçons de musique",
+      "id": "0253"
     },
     {
       "title": "Laisser un message à la porte",
-      "series": "Divers",
-      "filename": "0237"
+      "group": "Divers",
+      "id": "0237"
     },
     {
       "title": "Laver la vaisselle dans un bar",
-      "series": "Théâtre de boulevard",
-      "filename": "0251"
+      "group": "Théâtre de boulevard",
+      "id": "0251"
     },
     {
       "title": "Le Morgan Show",
-      "series": "Divers",
-      "filename": "0262"
+      "group": "Divers",
+      "id": "0262"
     },
     {
       "title": "Le VTT",
-      "series": "Ca se dispute",
-      "filename": "0307"
+      "group": "Ca se dispute",
+      "id": "0307"
     },
     {
       "title": "Le blues",
-      "series": "Leçons de musique",
-      "filename": "0254"
+      "group": "Leçons de musique",
+      "id": "0254"
     },
     {
       "title": "Le cinéma d'époque",
-      "series": "Cinéma",
-      "filename": "0256"
+      "group": "Cinéma",
+      "id": "0256"
     },
     {
       "title": "Le gaffeur",
-      "series": "Divers",
-      "filename": "0258"
+      "group": "Divers",
+      "id": "0258"
     },
     {
       "title": "Le langage des films américains",
-      "series": "Cinéma",
-      "filename": "0259"
+      "group": "Cinéma",
+      "id": "0259"
     },
     {
       "title": "Le mari vient de sortir",
-      "series": "Théâtre de boulevard",
-      "filename": "0260"
+      "group": "Théâtre de boulevard",
+      "id": "0260"
     },
     {
       "title": "Le métro",
-      "series": "Divers",
-      "filename": "0261"
+      "group": "Divers",
+      "id": "0261"
     },
     {
       "title": "Le paradis",
-      "series": "Divers",
-      "filename": "0267"
+      "group": "Divers",
+      "id": "0267"
     },
     {
       "title": "Le petit menuisier moustachu",
-      "series": "Vente par téléphone",
-      "filename": "0269"
+      "group": "Vente par téléphone",
+      "id": "0269"
     },
     {
       "title": "Le piano",
-      "series": "Leçons de musique",
-      "filename": "0270"
+      "group": "Leçons de musique",
+      "id": "0270"
     },
     {
       "title": "Le producteur",
-      "series": "Divers",
-      "filename": "0272"
+      "group": "Divers",
+      "id": "0272"
     },
     {
       "title": "Le président appelle le père Noël",
-      "series": "Politique",
-      "filename": "0271"
+      "group": "Politique",
+      "id": "0271"
     },
     {
       "title": "Le psychiatre",
-      "series": "Psy",
-      "filename": "0273"
+      "group": "Psy",
+      "id": "0273"
     },
     {
       "title": "Le psychologue",
-      "series": "Psy",
-      "filename": "0274"
+      "group": "Psy",
+      "id": "0274"
     },
     {
       "title": "Le père Noël",
-      "series": "Chansons",
-      "filename": "0268"
+      "group": "Chansons",
+      "id": "0268"
     },
     {
       "title": "Max Kriegger, Le retour du courrier",
-      "series": "Cinéma",
-      "filename": "0275"
+      "group": "Cinéma",
+      "id": "0275"
     },
     {
       "title": "Le réveil sonne tôt",
-      "series": "X-files du peuple",
-      "filename": "0276"
+      "group": "X-files du peuple",
+      "id": "0276"
     },
     {
       "title": "Le temps des fêtes",
-      "series": "Chansons",
-      "filename": "0305"
+      "group": "Chansons",
+      "id": "0305"
     },
     {
       "title": "Le type se retrouve dans le bar",
-      "series": "Série policière",
-      "filename": "0306"
+      "group": "Série policière",
+      "id": "0306"
     },
     {
       "title": "Les amateurs et les pros",
-      "series": "Divers",
-      "filename": "0277"
+      "group": "Divers",
+      "id": "0277"
     },
     {
       "title": "Les appareils modernes",
-      "series": "Divers",
-      "filename": "0278"
+      "group": "Divers",
+      "id": "0278"
     },
     {
       "title": "Les besoins du chien du voisin dans le jardin",
-      "series": "Vie quotidienne",
-      "filename": "0279"
+      "group": "Vie quotidienne",
+      "id": "0279"
     },
     {
       "title": "Les cerveaux qui fleurissent",
-      "series": "Emissions TV",
-      "filename": "0280"
+      "group": "Emissions TV",
+      "id": "0280"
     },
     {
       "title": "Les crottes de chien à Paris",
-      "series": "Chansons",
-      "filename": "0281"
+      "group": "Chansons",
+      "id": "0281"
     },
     {
       "title": "Les cuivres",
-      "series": "Leçons de musique",
-      "filename": "0282"
+      "group": "Leçons de musique",
+      "id": "0282"
     },
     {
       "title": "Les débuts",
-      "series": "Divers",
-      "filename": "0283"
+      "group": "Divers",
+      "id": "0283"
     },
     {
       "title": "Les dérangeants Vol.1",
-      "series": "Divers",
-      "filename": "0284"
+      "group": "Divers",
+      "id": "0284"
     },
     {
       "title": "Les dérangeants Vol.2",
-      "series": "Divers",
-      "filename": "0285"
+      "group": "Divers",
+      "id": "0285"
     },
     {
       "title": "Les enfers",
-      "series": "Divers",
-      "filename": "0286"
+      "group": "Divers",
+      "id": "0286"
     },
     {
       "title": "Les grosses têtes",
-      "series": "Divers",
-      "filename": "0290"
+      "group": "Divers",
+      "id": "0290"
     },
     {
       "title": "Les gîtes",
-      "series": "Divers",
-      "filename": "0289"
+      "group": "Divers",
+      "id": "0289"
     },
     {
       "title": "Les imperfections surprises",
-      "series": "Chansons",
-      "filename": "0291"
+      "group": "Chansons",
+      "id": "0291"
     },
     {
       "title": "Les mystères",
-      "series": "Divers",
-      "filename": "0292"
+      "group": "Divers",
+      "id": "0292"
     },
     {
       "title": "Les ordures",
-      "series": "Ca se dispute",
-      "filename": "0293"
+      "group": "Ca se dispute",
+      "id": "0293"
     },
     {
       "title": "Les p'tits trucs",
-      "series": "Divers",
-      "filename": "0303"
+      "group": "Divers",
+      "id": "0303"
     },
     {
       "title": "Les percussions",
-      "series": "Leçons de musique",
-      "filename": "0294"
+      "group": "Leçons de musique",
+      "id": "0294"
     },
     {
       "title": "Les petites bêtes",
-      "series": "Chansons",
-      "filename": "0295"
+      "group": "Chansons",
+      "id": "0295"
     },
     {
       "title": "Les petites poussières dans le nombril",
-      "series": "Artistes",
-      "filename": "0296"
+      "group": "Artistes",
+      "id": "0296"
     },
     {
       "title": "Les petits dauphins",
-      "series": "Radio positive",
-      "filename": "0297"
+      "group": "Radio positive",
+      "id": "0297"
     },
     {
       "title": "Les petits dromadaires",
-      "series": "Radio positive",
-      "filename": "0298"
+      "group": "Radio positive",
+      "id": "0298"
     },
     {
       "title": "Les petits esprits",
-      "series": "Divers",
-      "filename": "0299"
+      "group": "Divers",
+      "id": "0299"
     },
     {
       "title": "Les petits hamsters",
-      "series": "Radio positive",
-      "filename": "0300"
+      "group": "Radio positive",
+      "id": "0300"
     },
     {
       "title": "Les petits hippocampes",
-      "series": "Radio positive",
-      "filename": "0301"
+      "group": "Radio positive",
+      "id": "0301"
     },
     {
       "title": "Les petits rodactiles",
-      "series": "Radio positive",
-      "filename": "0302"
+      "group": "Radio positive",
+      "id": "0302"
     },
     {
       "title": "Fréquence Bled",
-      "series": "Radio associative",
-      "filename": "0175"
+      "group": "Radio associative",
+      "id": "0175"
     },
     {
       "title": "Fréquence en branle",
-      "series": "Radio associative",
-      "filename": "0176"
+      "group": "Radio associative",
+      "id": "0176"
     },
     {
       "title": "Fréquence s'en fout",
-      "series": "Radio associative",
-      "filename": "0177"
+      "group": "Radio associative",
+      "id": "0177"
     },
     {
       "title": "Fréquence solitaire",
-      "series": "Radio associative",
-      "filename": "0178"
+      "group": "Radio associative",
+      "id": "0178"
     },
     {
       "title": "Les studios d'enregistrement",
-      "series": "Leçons de musique",
-      "filename": "0304"
+      "group": "Leçons de musique",
+      "id": "0304"
     },
     {
       "title": "Leçons de théâtre",
-      "series": "Divers",
-      "filename": "0257"
+      "group": "Divers",
+      "id": "0257"
     },
     {
       "title": "Licenciement",
-      "series": "Divers",
-      "filename": "0309"
+      "group": "Divers",
+      "id": "0309"
     },
     {
       "title": "Lire le journal, c'est horrible",
-      "series": "Divers",
-      "filename": "0312"
+      "group": "Divers",
+      "id": "0312"
     },
     {
       "title": "Logisexe",
-      "series": "Divers",
-      "filename": "0313"
+      "group": "Divers",
+      "id": "0313"
     },
     {
       "title": "Louis XIV",
-      "series": "Célébrités mortes",
-      "filename": "0316"
+      "group": "Célébrités mortes",
+      "id": "0316"
     },
     {
       "title": "Ludwig Von Beethoven",
-      "series": "Célébrités mortes",
-      "filename": "0317"
+      "group": "Célébrités mortes",
+      "id": "0317"
     },
     {
       "title": "Léon et Dieu",
-      "series": "Divers",
-      "filename": "0266"
+      "group": "Divers",
+      "id": "0266"
     },
     {
       "title": "Léonard de Vinci",
-      "series": "Célébrités mortes",
-      "filename": "0265"
+      "group": "Célébrités mortes",
+      "id": "0265"
     },
     {
       "title": "Ma petite scandinave",
-      "series": "Divers",
-      "filename": "0326"
+      "group": "Divers",
+      "id": "0326"
     },
     {
       "title": "Ma voisine",
-      "series": "Divers",
-      "filename": "0335"
+      "group": "Divers",
+      "id": "0335"
     },
     {
       "title": "Machine à café problématique",
-      "series": "Divers",
-      "filename": "0318"
+      "group": "Divers",
+      "id": "0318"
     },
     {
       "title": "Madame tumeur et Monsieur cerveau",
-      "series": "Urgences du peuple",
-      "filename": "0319",
+      "group": "Urgences du peuple",
+      "id": "0319",
       "duplicate": true
     },
     {
       "title": "Manager de groupe",
-      "series": "Divers",
-      "filename": "0324"
+      "group": "Divers",
+      "id": "0324"
     },
     {
       "title": "Manque de confiance en soi",
-      "series": "Divers",
-      "filename": "0325"
+      "group": "Divers",
+      "id": "0325"
     },
     {
       "title": "Maria est la bonne femme",
-      "series": "Divers",
-      "filename": "0327"
+      "group": "Divers",
+      "id": "0327"
     },
     {
       "title": "Marionnette électronique",
-      "series": "Divers",
-      "filename": "0328"
+      "group": "Divers",
+      "id": "0328"
     },
     {
       "title": "Match de foot",
-      "series": "Divers",
-      "filename": "0329"
+      "group": "Divers",
+      "id": "0329"
     },
     {
       "title": "Matelot jardinier",
-      "series": "Divers",
-      "filename": "0330"
+      "group": "Divers",
+      "id": "0330"
     },
     {
       "title": "Matin difficile",
-      "series": "Divers",
-      "filename": "0331"
+      "group": "Divers",
+      "id": "0331"
     },
     {
       "title": "Matin difficile putain !",
-      "series": "Divers",
-      "filename": "0332"
+      "group": "Divers",
+      "id": "0332"
     },
     {
       "title": "Mauvaise nouvelle sur scène",
-      "series": "Divers",
-      "filename": "0333"
+      "group": "Divers",
+      "id": "0333"
     },
     {
       "title": "Mauvaises nouvelles par téléphone",
-      "series": "Divers",
-      "filename": "0334"
+      "group": "Divers",
+      "id": "0334"
     },
     {
       "title": "Maîtriser le texte et le rythme",
-      "series": "Divers",
-      "filename": "0322"
+      "group": "Divers",
+      "id": "0322"
     },
     {
       "title": "Meeting et 4 sièges en cuir",
-      "series": "Vie d'entreprise",
-      "filename": "0336"
+      "group": "Vie d'entreprise",
+      "id": "0336"
     },
     {
       "title": "Meute de journalistes",
-      "series": "Série policière",
-      "filename": "0341"
+      "group": "Série policière",
+      "id": "0341"
     },
     {
       "title": "Michel Nostradamus",
-      "series": "Divers",
-      "filename": "0343"
+      "group": "Divers",
+      "id": "0343"
     },
     {
       "title": "Ministre avec l'avocat de Bardot",
-      "series": "Tribunal du peuple",
-      "filename": "0344"
+      "group": "Tribunal du peuple",
+      "id": "0344"
     },
     {
       "title": "Mission à Disneyland",
-      "series": "Espionnage",
-      "filename": "0345"
+      "group": "Espionnage",
+      "id": "0345"
     },
     {
       "title": "Monsieur et Madame Sète",
-      "series": "Divers",
-      "filename": "0346"
+      "group": "Divers",
+      "id": "0346"
     },
     {
       "title": "Montrer son talent lors d'une soirée",
-      "series": "Divers",
-      "filename": "0347"
+      "group": "Divers",
+      "id": "0347"
     },
     {
       "title": "Mort du chien",
-      "series": "Divers",
-      "filename": "0348"
+      "group": "Divers",
+      "id": "0348"
     },
     {
       "title": "Musicien du roi",
-      "series": "Divers",
-      "filename": "0351"
+      "group": "Divers",
+      "id": "0351"
     },
     {
       "title": "Musique et audition",
-      "series": "Divers",
-      "filename": "0353"
+      "group": "Divers",
+      "id": "0353"
     },
     {
       "title": "Naissance d'un groupe",
-      "series": "Divers",
-      "filename": "0354"
+      "group": "Divers",
+      "id": "0354"
     },
     {
       "title": "Navette l'Intrépide",
-      "series": "Divers",
-      "filename": "0355"
+      "group": "Divers",
+      "id": "0355"
     },
     {
       "title": "Nettoyeur Super-Cleaner",
-      "series": "Divers",
-      "filename": "0357"
+      "group": "Divers",
+      "id": "0357"
     },
     {
       "title": "Nez qui tombe",
-      "series": "Divers",
-      "filename": "0358"
+      "group": "Divers",
+      "id": "0358"
     },
     {
       "title": "Nos amis les animaux",
-      "series": "Divers",
-      "filename": "0359"
+      "group": "Divers",
+      "id": "0359"
     },
     {
       "title": "Nous irons dans la joie",
-      "series": "Divers",
-      "filename": "0360"
+      "group": "Divers",
+      "id": "0360"
     },
     {
       "title": "Nouveau dossier du FBI",
-      "series": "Divers",
-      "filename": "0361"
+      "group": "Divers",
+      "id": "0361"
     },
     {
       "title": "Nouveau père",
-      "series": "Vie quotidienne",
-      "filename": "0362"
+      "group": "Vie quotidienne",
+      "id": "0362"
     },
     {
       "title": "Nouveaux officiers du FBI",
-      "series": "Série policière",
-      "filename": "0363"
+      "group": "Série policière",
+      "id": "0363"
     },
     {
       "title": "Nouvelle association",
-      "series": "Columbo du peuple",
-      "filename": "0364"
+      "group": "Columbo du peuple",
+      "id": "0364"
     },
     {
       "title": "Nouvelle chaîne HiFi",
-      "series": "Divers",
-      "filename": "0365"
+      "group": "Divers",
+      "id": "0365"
     },
     {
       "title": "Négocier avec le Japon",
-      "series": "Vie d'entreprise",
-      "filename": "0356"
+      "group": "Vie d'entreprise",
+      "id": "0356"
     },
     {
       "title": "Opération d'un ministre",
-      "series": "Urgences du peuple",
-      "filename": "0367"
+      "group": "Urgences du peuple",
+      "id": "0367"
     },
     {
       "title": "Ordinateurs de la banque plantés",
-      "series": "Vie d'entreprise",
-      "filename": "0370"
+      "group": "Vie d'entreprise",
+      "id": "0370"
     },
     {
       "title": "Partie de Monopoly",
-      "series": "Vie quotidienne",
-      "filename": "0374"
+      "group": "Vie quotidienne",
+      "id": "0374"
     },
     {
       "title": "Partie de Scrabble",
-      "series": "Vie quotidienne",
-      "filename": "0375"
+      "group": "Vie quotidienne",
+      "id": "0375"
     },
     {
       "title": "Partir un jour",
-      "series": "Chansons",
-      "filename": "0376"
+      "group": "Chansons",
+      "id": "0376"
     },
     {
       "title": "Patinage artistique",
-      "series": "Sports",
-      "filename": "0378"
+      "group": "Sports",
+      "id": "0378"
     },
     {
       "title": "Patineuse russe disqualifiée",
-      "series": "Sports",
-      "filename": "0379"
+      "group": "Sports",
+      "id": "0379"
     },
     {
       "title": "Perceuse un peu forcée",
-      "series": "Vie quotidienne",
-      "filename": "0380"
+      "group": "Vie quotidienne",
+      "id": "0380"
     },
     {
       "title": "Perdu en forêt",
-      "series": "Conte d'horreur",
-      "filename": "0381"
+      "group": "Conte d'horreur",
+      "id": "0381"
     },
     {
       "title": "Permis de porc",
-      "series": "Série policière",
-      "filename": "0382"
+      "group": "Série policière",
+      "id": "0382"
     },
     {
       "title": "Petite partition d'un musicien",
-      "series": "Divers",
-      "filename": "0384"
+      "group": "Divers",
+      "id": "0384"
     },
     {
       "title": "Photos pour passeports",
-      "series": "Divers",
-      "filename": "0385"
+      "group": "Divers",
+      "id": "0385"
     },
     {
       "title": "Pianiste à un doigt",
-      "series": "Radio associative",
-      "filename": "0386"
+      "group": "Radio associative",
+      "id": "0386"
     },
     {
       "title": "Plaisir-Express",
-      "series": "Emissions TV",
-      "filename": "0387"
+      "group": "Emissions TV",
+      "id": "0387"
     },
     {
       "title": "Plaques de cire",
-      "series": "Leçons de musique",
-      "filename": "0388"
+      "group": "Leçons de musique",
+      "id": "0388"
     },
     {
       "title": "Pléonasmes",
-      "series": "Divers",
-      "filename": "0389"
+      "group": "Divers",
+      "id": "0389"
     },
     {
       "title": "Portable au théâtre",
-      "series": "Théâtre",
-      "filename": "0391"
+      "group": "Théâtre",
+      "id": "0391"
     },
     {
       "title": "Portrait d'artiste",
-      "series": "Divers",
-      "filename": "0392"
+      "group": "Divers",
+      "id": "0392"
     },
     {
       "title": "Possibilité d'être enceinte",
-      "series": "Théâtre de boulevard",
-      "filename": "0393"
+      "group": "Théâtre de boulevard",
+      "id": "0393"
     },
     {
       "title": "Poésie",
-      "series": "Divers",
-      "filename": "0390"
+      "group": "Divers",
+      "id": "0390"
     },
     {
       "title": "Premier vol en avion",
-      "series": "Divers",
-      "filename": "0396"
+      "group": "Divers",
+      "id": "0396"
     },
     {
       "title": "Premières visites",
-      "series": "Divers",
-      "filename": "0395"
+      "group": "Divers",
+      "id": "0395"
     },
     {
       "title": "Prix de mérites",
-      "series": "Divers",
-      "filename": "0403"
+      "group": "Divers",
+      "id": "0403"
     },
     {
       "title": "Professionnel presse",
-      "series": "Ca se dispute",
-      "filename": "0404"
+      "group": "Ca se dispute",
+      "id": "0404"
     },
     {
       "title": "Programme jeunesse",
-      "series": "Divers",
-      "filename": "0405"
+      "group": "Divers",
+      "id": "0405"
     },
     {
       "title": "Présentateur \"N'importe Qui\" et Chnout",
-      "series": "Emissions TV",
-      "filename": "0398"
+      "group": "Emissions TV",
+      "id": "0398"
     },
     {
       "title": "Présentateur aux WC",
-      "series": "Ca se dispute",
-      "filename": "0397"
+      "group": "Ca se dispute",
+      "id": "0397"
     },
     {
       "title": "Présentation d'un artiste",
-      "series": "Divers",
-      "filename": "0399"
+      "group": "Divers",
+      "id": "0399"
     },
     {
       "title": "Président des USA",
-      "series": "Politique",
-      "filename": "0400"
+      "group": "Politique",
+      "id": "0400"
     },
     {
       "title": "Prêter 5000 balles à Paul",
-      "series": "Urgences du peuple",
-      "filename": "0401"
+      "group": "Urgences du peuple",
+      "id": "0401"
     },
     {
       "title": "Prêts à taux élevés",
-      "series": "Vente par téléphone",
-      "filename": "0402"
+      "group": "Vente par téléphone",
+      "id": "0402"
     },
     {
       "title": "Psychologue déguisé en femme",
-      "series": "Divers",
-      "filename": "0406"
+      "group": "Divers",
+      "id": "0406"
     },
     {
       "title": "Pub comparative",
-      "series": "Agence de pub",
-      "filename": "0407"
+      "group": "Agence de pub",
+      "id": "0407"
     },
     {
       "title": "Pub dans laquelle je joue",
-      "series": "Divers",
-      "filename": "0408"
+      "group": "Divers",
+      "id": "0408"
     },
     {
       "title": "Pub mal cadrée et ex-criminel",
-      "series": "Agence de pub",
-      "filename": "0409"
+      "group": "Agence de pub",
+      "id": "0409"
     },
     {
       "title": "Pub pour des vitamines",
-      "series": "Agence de pub",
-      "filename": "0410"
+      "group": "Agence de pub",
+      "id": "0410"
     },
     {
       "title": "Quand je chante comme ça",
-      "series": "Chansons",
-      "filename": "0411"
+      "group": "Chansons",
+      "id": "0411"
     },
     {
       "title": "Quatrième ouh là !",
-      "series": "Urgences du peuple",
-      "filename": "0412"
+      "group": "Urgences du peuple",
+      "id": "0412"
     },
     {
       "title": "Quelqu'un qui vous veut du bien",
-      "series": "Espionnage",
-      "filename": "0413"
+      "group": "Espionnage",
+      "id": "0413"
     },
     {
       "title": "Questions-réponses",
-      "series": "Divers",
-      "filename": "0414"
+      "group": "Divers",
+      "id": "0414"
     },
     {
       "title": "Radio Poil d'Oreille",
-      "series": "Radio associative",
-      "filename": "0417"
+      "group": "Radio associative",
+      "id": "0417"
     },
     {
       "title": "Par derrière",
-      "series": "Radio Sexe",
-      "filename": "0371"
+      "group": "Radio Sexe",
+      "id": "0371"
     },
     {
       "title": "Radio associative",
-      "series": "Divers",
-      "filename": "0415"
+      "group": "Divers",
+      "id": "0415"
     },
     {
       "title": "Radio avec Michel",
-      "series": "Divers",
-      "filename": "0416"
+      "group": "Divers",
+      "id": "0416"
     },
     {
       "title": "Recette du feuilleton",
-      "series": "Divers",
-      "filename": "0419"
+      "group": "Divers",
+      "id": "0419"
     },
     {
       "title": "Recherche de Parlà",
-      "series": "Série policière",
-      "filename": "0420"
+      "group": "Série policière",
+      "id": "0420"
     },
     {
       "title": "Reconstitution d'un visage",
-      "series": "Série policière",
-      "filename": "0422"
+      "group": "Série policière",
+      "id": "0422"
     },
     {
       "title": "Relations extra-conjugales",
-      "series": "Théâtre de boulevard",
-      "filename": "0425"
+      "group": "Théâtre de boulevard",
+      "id": "0425"
     },
     {
       "title": "Remise des palmes",
-      "series": "Cinéma",
-      "filename": "0426"
+      "group": "Cinéma",
+      "id": "0426"
     },
     {
       "title": "Rencontre d'un vieil ami",
-      "series": "Divers",
-      "filename": "0428"
+      "group": "Divers",
+      "id": "0428"
     },
     {
       "title": "Rencontre de deux présidents opposés",
-      "series": "Politique",
-      "filename": "0427"
+      "group": "Politique",
+      "id": "0427"
     },
     {
       "title": "Rendez-vous sur Internet",
-      "series": "Internet",
-      "filename": "0429"
+      "group": "Internet",
+      "id": "0429"
     },
     {
       "title": "Rendre visite à l'hôpital",
-      "series": "Divers",
-      "filename": "0430"
+      "group": "Divers",
+      "id": "0430"
     },
     {
       "title": "Rentrée du boulot",
-      "series": "Théâtre de boulevard",
-      "filename": "0431"
+      "group": "Théâtre de boulevard",
+      "id": "0431"
     },
     {
       "title": "Représentante en salle d'opération",
-      "series": "Urgences du peuple",
-      "filename": "0436"
+      "group": "Urgences du peuple",
+      "id": "0436"
     },
     {
       "title": "Restaurant diététique",
-      "series": "New Age",
-      "filename": "0437"
+      "group": "New Age",
+      "id": "0437"
     },
     {
       "title": "Restaurant pour la Saint-Valentin",
-      "series": "Divers",
-      "filename": "0438"
+      "group": "Divers",
+      "id": "0438"
     },
     {
       "title": "Restauration de façade",
-      "series": "Commerces",
-      "filename": "0439"
+      "group": "Commerces",
+      "id": "0439"
     },
     {
       "title": "Retire l'affaire à cause du général",
-      "series": "X-files du peuple",
-      "filename": "0441"
+      "group": "X-files du peuple",
+      "id": "0441"
     },
     {
       "title": "Retraite au grand air",
-      "series": "Columbo du peuple",
-      "filename": "0442"
+      "group": "Columbo du peuple",
+      "id": "0442"
     },
     {
       "title": "Rien ne va plus avec sa femme",
-      "series": "Urgences du peuple",
-      "filename": "0445"
+      "group": "Urgences du peuple",
+      "id": "0445"
     },
     {
       "title": "Accordéon au boulot",
-      "series": "Roger et Caroline",
-      "filename": "0010"
+      "group": "Roger et Caroline",
+      "id": "0010"
     },
     {
       "title": "Appel à 7h du matin",
-      "series": "Roger et Caroline",
-      "filename": "0026"
+      "group": "Roger et Caroline",
+      "id": "0026"
     },
     {
       "title": "Caroline a rappelé",
-      "series": "Roger et Caroline",
-      "filename": "0063"
+      "group": "Roger et Caroline",
+      "id": "0063"
     },
     {
       "title": "Coucou Caroline",
-      "series": "Roger et Caroline",
-      "filename": "0111"
+      "group": "Roger et Caroline",
+      "id": "0111"
     },
     {
       "title": "Dans le couloir",
-      "series": "Roger et Caroline",
-      "filename": "0116"
+      "group": "Roger et Caroline",
+      "id": "0116"
     },
     {
       "title": "Emprunter une agrafeuse",
-      "series": "Roger et Caroline",
-      "filename": "0147"
+      "group": "Roger et Caroline",
+      "id": "0147"
     },
     {
       "title": "Le CD",
-      "series": "Roger et Caroline",
-      "filename": "0255"
+      "group": "Roger et Caroline",
+      "id": "0255"
     },
     {
       "title": "Message sur internet",
-      "series": "Roger et Caroline",
-      "filename": "0339"
+      "group": "Roger et Caroline",
+      "id": "0339"
     },
     {
       "title": "Offrir des fleurs",
-      "series": "Roger et Caroline",
-      "filename": "0366"
+      "group": "Roger et Caroline",
+      "id": "0366"
     },
     {
       "title": "Roger reçoit Caroline",
-      "series": "Roger et Caroline",
-      "filename": "0446"
+      "group": "Roger et Caroline",
+      "id": "0446"
     },
     {
       "title": "Répliques dans l'ordinateur",
-      "series": "Roger et Caroline",
-      "filename": "0433"
+      "group": "Roger et Caroline",
+      "id": "0433"
     },
     {
       "title": "Répondeur à afficheur digital",
-      "series": "Roger et Caroline",
-      "filename": "0434"
+      "group": "Roger et Caroline",
+      "id": "0434"
     },
     {
       "title": "Trois premiers appels",
-      "series": "Roger et Caroline",
-      "filename": "0487"
+      "group": "Roger et Caroline",
+      "id": "0487"
     },
     {
       "title": "Voiture impressionnante",
-      "series": "Roger et Caroline",
-      "filename": "0519"
+      "group": "Roger et Caroline",
+      "id": "0519"
     },
     {
       "title": "Voix déguisée",
-      "series": "Roger et Caroline",
-      "filename": "0520"
+      "group": "Roger et Caroline",
+      "id": "0520"
     },
     {
       "title": "Rupture sur solo de guitare",
-      "series": "Divers",
-      "filename": "0447"
+      "group": "Divers",
+      "id": "0447"
     },
     {
       "title": "Règlement de comptes",
-      "series": "Série policière",
-      "filename": "0424"
+      "group": "Série policière",
+      "id": "0424"
     },
     {
       "title": "Réceptionniste dans un 5 étoiles",
-      "series": "Divers",
-      "filename": "0418"
+      "group": "Divers",
+      "id": "0418"
     },
     {
       "title": "Réclamation à l'assurance",
-      "series": "Divers",
-      "filename": "0421"
+      "group": "Divers",
+      "id": "0421"
     },
     {
       "title": "Rédacteur en chef",
-      "series": "Divers",
-      "filename": "0423"
+      "group": "Divers",
+      "id": "0423"
     },
     {
       "title": "Réponse d'expert en un clin d'oeil",
-      "series": "Série policière",
-      "filename": "0435"
+      "group": "Série policière",
+      "id": "0435"
     },
     {
       "title": "Répétition de théâtre",
-      "series": "Théâtre",
-      "filename": "0432"
+      "group": "Théâtre",
+      "id": "0432"
     },
     {
       "title": "Résultat des analyses",
-      "series": "Urgences du peuple",
-      "filename": "0440"
+      "group": "Urgences du peuple",
+      "id": "0440"
     },
     {
       "title": "Réunion présidentielle sur les taxes",
-      "series": "Politique",
-      "filename": "0443"
+      "group": "Politique",
+      "id": "0443"
     },
     {
       "title": "Réunion sur les portes",
-      "series": "Divers",
-      "filename": "0444"
+      "group": "Divers",
+      "id": "0444"
     },
     {
       "title": "Salon funéraire",
-      "series": "Vente par téléphone",
-      "filename": "0448"
+      "group": "Vente par téléphone",
+      "id": "0448"
     },
     {
       "title": "Scandale au gouvernement",
-      "series": "Politique",
-      "filename": "0450"
+      "group": "Politique",
+      "id": "0450"
     },
     {
       "title": "Service impec'",
-      "series": "Divers",
-      "filename": "0451"
+      "group": "Divers",
+      "id": "0451"
     },
     {
       "title": "Si jolie sérénade",
-      "series": "Columbo du peuple",
-      "filename": "0452"
+      "group": "Columbo du peuple",
+      "id": "0452"
     },
     {
       "title": "Situation financière catastrophique",
-      "series": "Politique",
-      "filename": "0453"
+      "group": "Politique",
+      "id": "0453"
     },
     {
       "title": "Situations gênantes",
-      "series": "Divers",
-      "filename": "0454"
+      "group": "Divers",
+      "id": "0454"
     },
     {
       "title": "Ski",
-      "series": "Sports",
-      "filename": "0455"
+      "group": "Sports",
+      "id": "0455"
     },
     {
       "title": "Snack-bar chez Léon",
-      "series": "Chansons",
-      "filename": "0456"
+      "group": "Chansons",
+      "id": "0456"
     },
     {
       "title": "Solo de Jimmy Page",
-      "series": "Leçons de musique",
-      "filename": "0457"
+      "group": "Leçons de musique",
+      "id": "0457"
     },
     {
       "title": "Sondage sur Noël",
-      "series": "Vente par téléphone",
-      "filename": "0458"
+      "group": "Vente par téléphone",
+      "id": "0458"
     },
     {
       "title": "Sonde odyssée perdue",
-      "series": "NASA du peuple",
-      "filename": "0459"
+      "group": "NASA du peuple",
+      "id": "0459"
     },
     {
       "title": "Sons Tchécoslovaques",
-      "series": "Divers",
-      "filename": "0460"
+      "group": "Divers",
+      "id": "0460"
     },
     {
       "title": "Sophie Marceau chanteuse",
-      "series": "Chansons",
-      "filename": "0461"
+      "group": "Chansons",
+      "id": "0461"
     },
     {
       "title": "Soudoyement",
-      "series": "Vie d'entreprise",
-      "filename": "0462"
+      "group": "Vie d'entreprise",
+      "id": "0462"
     },
     {
       "title": "Spielberg et De Niro",
-      "series": "Cinéma",
-      "filename": "0463"
+      "group": "Cinéma",
+      "id": "0463"
     },
     {
       "title": "Stade de France",
-      "series": "Divers",
-      "filename": "0467"
+      "group": "Divers",
+      "id": "0467"
     },
     {
       "title": "C'est le type qui sprrr",
-      "series": "Star Trek du peuple",
-      "filename": "0074"
+      "group": "Star Trek du peuple",
+      "id": "0074"
     },
     {
       "title": "Contourner la zone",
-      "series": "Star Trek du peuple",
-      "filename": "0101"
+      "group": "Star Trek du peuple",
+      "id": "0101"
     },
     {
       "title": "Musique d'ouverture plaisante",
-      "series": "Star Trek du peuple",
-      "filename": "0352"
+      "group": "Star Trek du peuple",
+      "id": "0352"
     },
     {
       "title": "Spock a des écouteurs",
-      "series": "Star Trek du peuple",
-      "filename": "0464"
+      "group": "Star Trek du peuple",
+      "id": "0464"
     },
     {
       "title": "Spock a un problème de volume",
-      "series": "Star Trek du peuple",
-      "filename": "0465"
+      "group": "Star Trek du peuple",
+      "id": "0465"
     },
     {
       "title": "Station Mir",
-      "series": "NASA du peuple",
-      "filename": "0468"
+      "group": "NASA du peuple",
+      "id": "0468"
     },
     {
       "title": "Succès mondial pour les chanteurs",
-      "series": "Divers",
-      "filename": "0469"
+      "group": "Divers",
+      "id": "0469"
     },
     {
       "title": "Suicide à coups de claques",
-      "series": "Columbo du peuple",
-      "filename": "0470"
+      "group": "Columbo du peuple",
+      "id": "0470"
     },
     {
       "title": "Super Chaussette FM",
-      "series": "Radio associative",
-      "filename": "0471"
+      "group": "Radio associative",
+      "id": "0471"
     },
     {
       "title": "Super Sport Plus pour tous",
-      "series": "Sports",
-      "filename": "0472"
+      "group": "Sports",
+      "id": "0472"
     },
     {
       "title": "Systèmes solaires",
-      "series": "La science et vous",
-      "filename": "0473"
+      "group": "La science et vous",
+      "id": "0473"
     },
     {
       "title": "Table doute",
-      "series": "Divers",
-      "filename": "0474"
+      "group": "Divers",
+      "id": "0474"
     },
     {
       "title": "Technologie musicale",
-      "series": "Leçons de musique",
-      "filename": "0475"
+      "group": "Leçons de musique",
+      "id": "0475"
     },
     {
       "title": "Thomas Edison",
-      "series": "Célébrités mortes",
-      "filename": "0479"
+      "group": "Célébrités mortes",
+      "id": "0479"
     },
     {
       "title": "Tombé dans l'escalier",
-      "series": "Tribunal du peuple",
-      "filename": "0480"
+      "group": "Tribunal du peuple",
+      "id": "0480"
     },
     {
       "title": "Toto le crétin",
-      "series": "Emissions TV",
-      "filename": "0481"
+      "group": "Emissions TV",
+      "id": "0481"
     },
     {
       "title": "Toujours en train de boire",
-      "series": "Théâtre de boulevard",
-      "filename": "0482"
+      "group": "Théâtre de boulevard",
+      "id": "0482"
     },
     {
       "title": "Tourner sans décor",
-      "series": "Cinéma",
-      "filename": "0483"
+      "group": "Cinéma",
+      "id": "0483"
     },
     {
       "title": "Tout le monde s'en fout",
-      "series": "Emissions TV",
-      "filename": "0485"
+      "group": "Emissions TV",
+      "id": "0485"
     },
     {
       "title": "Tout le monde se couche",
-      "series": "Série policière",
-      "filename": "0484"
+      "group": "Série policière",
+      "id": "0484"
     },
     {
       "title": "Travailler comme espion",
-      "series": "Espionnage",
-      "filename": "0486"
+      "group": "Espionnage",
+      "id": "0486"
     },
     {
       "title": "Morte dans le garage",
-      "series": "Tribunal du peuple",
-      "filename": "0349"
+      "group": "Tribunal du peuple",
+      "id": "0349"
     },
     {
       "title": "Morte sur le piano",
-      "series": "Tribunal du peuple",
-      "filename": "0350"
+      "group": "Tribunal du peuple",
+      "id": "0350"
     },
     {
       "title": "Trompé avec un aspirateur",
-      "series": "Théâtre de boulevard",
-      "filename": "0489"
+      "group": "Théâtre de boulevard",
+      "id": "0489"
     },
     {
       "title": "Trompé avec un fermier",
-      "series": "Théâtre de boulevard",
-      "filename": "0488"
+      "group": "Théâtre de boulevard",
+      "id": "0488"
     },
     {
       "title": "Trouver le dossier avant que l'inspecteur n'arrive",
-      "series": "Série policière",
-      "filename": "0490"
+      "group": "Série policière",
+      "id": "0490"
     },
     {
       "title": "Télé en fond sonore",
-      "series": "Roger et Caroline",
-      "filename": "0477"
+      "group": "Roger et Caroline",
+      "id": "0477"
     },
     {
       "title": "Télé-Achats",
-      "series": "Chansons",
-      "filename": "0476"
+      "group": "Chansons",
+      "id": "0476"
     },
     {
       "title": "Téléphone arabe",
-      "series": "Divers",
-      "filename": "0478"
+      "group": "Divers",
+      "id": "0478"
     },
     {
       "title": "Un Noël dans tous les styles",
-      "series": "Divers",
-      "filename": "0498"
+      "group": "Divers",
+      "id": "0498"
     },
     {
       "title": "Un invité de Marc",
-      "series": "Emissions TV",
-      "filename": "0494"
+      "group": "Emissions TV",
+      "id": "0494"
     },
     {
       "title": "Un jeune premier ministre",
-      "series": "Politique",
-      "filename": "0495"
+      "group": "Politique",
+      "id": "0495"
     },
     {
       "title": "Un monde sans hypocrisie",
-      "series": "Divers",
-      "filename": "0496"
+      "group": "Divers",
+      "id": "0496"
     },
     {
       "title": "Un mort par balle, un noyé",
-      "series": "Série policière",
-      "filename": "0497"
+      "group": "Série policière",
+      "id": "0497"
     },
     {
       "title": "Un vieil ami",
-      "series": "Vie quotidienne",
-      "filename": "0499"
+      "group": "Vie quotidienne",
+      "id": "0499"
     },
     {
       "title": "Une tradition des souvenirs",
-      "series": "Cinéma",
-      "filename": "0493"
+      "group": "Cinéma",
+      "id": "0493"
     },
     {
       "title": "Copine bizarre",
-      "series": "Urgences du peuple",
-      "filename": "0107"
+      "group": "Urgences du peuple",
+      "id": "0107"
     },
     {
       "title": "Infirmière favorite de Malcolm",
-      "series": "Urgences du peuple",
-      "filename": "0199"
+      "group": "Urgences du peuple",
+      "id": "0199"
     },
     {
       "title": "Malcolm fait des mots croisés",
-      "series": "Urgences du peuple",
-      "filename": "0323"
+      "group": "Urgences du peuple",
+      "id": "0323"
     },
     {
       "title": "Menaces de l'Irak",
-      "series": "Urgences du peuple",
-      "filename": "0338"
+      "group": "Urgences du peuple",
+      "id": "0338"
     },
     {
       "title": "Mélanome malin de type A",
-      "series": "Urgences du peuple",
-      "filename": "0337"
+      "group": "Urgences du peuple",
+      "id": "0337"
     },
     {
       "title": "Opération loupée",
-      "series": "Urgences du peuple",
-      "filename": "0368"
+      "group": "Urgences du peuple",
+      "id": "0368"
     },
     {
       "title": "Opérations gratuites en cachette",
-      "series": "Urgences du peuple",
-      "filename": "0369"
+      "group": "Urgences du peuple",
+      "id": "0369"
     },
     {
       "title": "Patient amputé des deux jambes",
-      "series": "Urgences du peuple",
-      "filename": "0377"
+      "group": "Urgences du peuple",
+      "id": "0377"
     },
     {
       "title": "Tumeur au cerveau",
-      "series": "Urgences du peuple",
-      "filename": "0001"
+      "group": "Urgences du peuple",
+      "id": "0001"
     },
     {
       "title": "Vacances au Mexique",
-      "series": "Divers",
-      "filename": "0500"
+      "group": "Divers",
+      "id": "0500"
     },
     {
       "title": "Vaisseau et demi",
-      "series": "Star Trek du peuple",
-      "filename": "0501"
+      "group": "Star Trek du peuple",
+      "id": "0501"
     },
     {
       "title": "Vaste opération en Russie",
-      "series": "Espionnage",
-      "filename": "0502"
+      "group": "Espionnage",
+      "id": "0502"
     },
     {
       "title": "Vendeur de HiFi collant",
-      "series": "Commerces",
-      "filename": "0503"
+      "group": "Commerces",
+      "id": "0503"
     },
     {
       "title": "Vendeur de voitures souriant",
-      "series": "Commerces",
-      "filename": "0504"
+      "group": "Commerces",
+      "id": "0504"
     },
     {
       "title": "Vente d'encyclopédies",
-      "series": "Vente par téléphone",
-      "filename": "0506"
+      "group": "Vente par téléphone",
+      "id": "0506"
     },
     {
       "title": "Vente de batterie de cuisine",
-      "series": "Vente par téléphone",
-      "filename": "0505"
+      "group": "Vente par téléphone",
+      "id": "0505"
     },
     {
       "title": "Contrat de rénovation",
-      "series": "Vente par téléphone",
-      "filename": "0102"
+      "group": "Vente par téléphone",
+      "id": "0102"
     },
     {
       "title": "Contrats d'assurance",
-      "series": "Vente par téléphone",
-      "filename": "0103"
+      "group": "Vente par téléphone",
+      "id": "0103"
     },
     {
       "title": "Venu pour te voir",
-      "series": "Théâtre de boulevard",
-      "filename": "0507"
+      "group": "Théâtre de boulevard",
+      "id": "0507"
     },
     {
       "title": "Victor Hugo",
-      "series": "Célébrités mortes",
-      "filename": "0508"
+      "group": "Célébrités mortes",
+      "id": "0508"
     },
     {
       "title": "Vie en apesanteur",
-      "series": "NASA du peuple",
-      "filename": "0509"
+      "group": "NASA du peuple",
+      "id": "0509"
     },
     {
       "title": "Vieillir de 60 ans",
-      "series": "Divers",
-      "filename": "0510"
+      "group": "Divers",
+      "id": "0510"
     },
     {
       "title": "Vieux clichés de films d'horreur",
-      "series": "Conte d'horreur",
-      "filename": "0511"
+      "group": "Conte d'horreur",
+      "id": "0511"
     },
     {
       "title": "Vincent plaqué par Jacinthe",
-      "series": "Vie quotidienne",
-      "filename": "0512"
+      "group": "Vie quotidienne",
+      "id": "0512"
     },
     {
       "title": "Visite du neveu Nouveau né",
-      "series": "Vie quotidienne",
-      "filename": "0513"
+      "group": "Vie quotidienne",
+      "id": "0513"
     },
     {
       "title": "Visite du patron",
-      "series": "Divers",
-      "filename": "0514"
+      "group": "Divers",
+      "id": "0514"
     },
     {
       "title": "Visite inattendue",
-      "series": "Vie quotidienne",
-      "filename": "0515"
+      "group": "Vie quotidienne",
+      "id": "0515"
     },
     {
       "title": "Visite indésirable",
-      "series": "Vie quotidienne",
-      "filename": "0516"
+      "group": "Vie quotidienne",
+      "id": "0516"
     },
     {
       "title": "Vive l'amour",
-      "series": "Chansons",
-      "filename": "0517"
+      "group": "Chansons",
+      "id": "0517"
     },
     {
       "title": "Voir Serge Lama après concert",
-      "series": "Divers",
-      "filename": "0518"
+      "group": "Divers",
+      "id": "0518"
     },
     {
       "title": "Vous ne rêvez plus",
-      "series": "Emissions TV",
-      "filename": "0521"
+      "group": "Emissions TV",
+      "id": "0521"
     },
     {
       "title": "Vrais musiciens accoustiques",
-      "series": "Divers",
-      "filename": "0522"
+      "group": "Divers",
+      "id": "0522"
     },
     {
       "title": "Bouche sans sourire",
-      "series": "X-files du peuple",
-      "filename": "0053"
+      "group": "X-files du peuple",
+      "id": "0053"
     },
     {
       "title": "Auto-immolation",
-      "series": "X-files du peuple",
-      "filename": "0038"
+      "group": "X-files du peuple",
+      "id": "0038"
     },
     {
       "title": "Autopsie",
-      "series": "X-files du peuple",
-      "filename": "0039"
+      "group": "X-files du peuple",
+      "id": "0039"
     },
     {
       "title": "Bar d'extra-terrestres",
-      "series": "X-files du peuple",
-      "filename": "0047"
+      "group": "X-files du peuple",
+      "id": "0047"
     },
     {
       "title": "Pouvoir suggestif",
-      "series": "X-files du peuple",
-      "filename": "0394"
+      "group": "X-files du peuple",
+      "id": "0394"
     },
     {
       "title": "Yves gagne 10 000 francs",
-      "series": "Columbo du peuple",
-      "filename": "0523"
+      "group": "Columbo du peuple",
+      "id": "0523"
     },
     {
       "title": "Zorro",
-      "series": "Divers",
-      "filename": "0524"
+      "group": "Divers",
+      "id": "0524"
     },
     {
       "title": "Une foule qui dégage",
-      "series": "Série policière",
-      "filename": "0492"
+      "group": "Série policière",
+      "id": "0492"
     },
     {
       "title": "Ça va mal aller dans un instant",
-      "series": "Columbo du peuple",
-      "filename": "0068"
+      "group": "Columbo du peuple",
+      "id": "0068"
     },
     {
       "title": "Ça va être ta fête",
-      "series": "Emissions TV",
-      "filename": "0067"
+      "group": "Emissions TV",
+      "id": "0067"
     },
     {
       "title": "Échasses et ballons remplis d'eau",
-      "series": "Emissions TV",
-      "filename": "0143"
+      "group": "Emissions TV",
+      "id": "0143"
     },
     {
       "title": "Émotivité VS Raison",
-      "series": "Divers",
-      "filename": "0144"
+      "group": "Divers",
+      "id": "0144"
     }
   ]
 };

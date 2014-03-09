@@ -30,12 +30,12 @@ body {
 #infoBox {
     display: none;
 }
-#soundTitle {
+#titleInfo {
     background-color: rgb(19, 79, 145);
     color: white;
     font-family: courier;
 }
-#seriesTitle {
+#groupInfo {
     background-color: rgb(19, 79, 100);
     color: white;
 }
@@ -116,7 +116,7 @@ body {
     background-color: rgb(19, 79, 145) !important;
     color: white !important;
 }
-.seriesLabel {
+.groupLabel {
     color: rgb(6, 59, 109);
     cursor: pointer;
 }

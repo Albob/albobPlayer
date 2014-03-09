@@ -21,23 +21,23 @@ function onResize() {
 	$("#content").height(window.innerHeight - ($("#header").height() + $("#footer").height() + 10));
 }
 
-function clearSources(player) {
-	while (player.children.length > 0) {
-		player.removeChild(player.children[0]);
+function clearSources($player) {
+	while ($player.children.length > 0) {
+		$player.removeChild($player.children[0]);
 	}
 }
 
-function loadSources(player, path, filename) {
+function loadSources($player, $path, $id) {
 	var source;
 
 	source = document.createElement('source');
-	source.setAttribute('src', path + filename + '.mp3');
-	player.appendChild(source);
+	source.setAttribute('src', $path + $id + '.mp3');
+	$player.appendChild(source);
 	source = document.createElement('source');
-	source.setAttribute('src', path + filename + '.ogg');
-	player.appendChild(source);
+	source.setAttribute('src', $path + $id + '.ogg');
+	$player.appendChild(source);
 
-	player.load();
+	$player.load();
 }
 
 function listenTo($episode_index) {
@@ -46,25 +46,25 @@ function listenTo($episode_index) {
 
 function playEpisode($episode_index) {
 	var player,
-		sound_title,
-		series_title,
+		title_span,
+		group_span,
 		episode_info;
 
 	say('Playing episode...');
 	episode_info = playerData.episodes[$episode_index];
 	player = document.getElementById('audioPlayer');
 	clearSources(player);
-	loadSources(player, playerData.base_url, episode_info.filename);
+	loadSources(player, playerData.base_url, episode_info.id);
 	player.play();
-	sound_title = document.getElementById('soundTitle');
-	sound_title.innerHTML = episode_info.title;
-	series_title = document.getElementById('seriesTitle');
-	series_title.innerHTML = episode_info.series;
+	title_span = document.getElementById('titleInfo');
+	title_span.innerHTML = episode_info.title;
+	group_span = document.getElementById('groupInfo');
+	group_span.innerHTML = episode_info.group;
 	$('#infoBox').css('display', 'inline');
 	onResize(null);
 
 	$('.played').removeClass('played');
-	$('#' + episode_info.filename).addClass('played');
+	$('#' + episode_info.id).addClass('played');
 
 	$('#pauseButton').css('display', 'inline');
 	$('#randomButton').animate({opacity: 1});
@@ -168,10 +168,10 @@ function getEpisodeBoxClosure($episode_index) {
 	};
 }
 
-function getSeriesLabelClosure(i) {
+function getGroupLabelClosure(i) {
 	return function() {
-		say('Clicked on series label (index:'+i+')');
-		$('#filterText')[0].value = playerData.episodes[i].series;
+		say('Clicked on group label (index:'+i+')');
+		$('#filterText')[0].value = playerData.episodes[i].group;
 		$('#filterText')[0].focus();
 		onFilterTimeout(); // force filter refresh
 	};
@@ -208,7 +208,7 @@ function onPageLoaded() {
 
 			episode_box = document.createElement("div");
 			episode_box.setAttribute('class', "episode");
-			episode_box.setAttribute('id', episode_info.filename);
+			episode_box.setAttribute('id', episode_info.id);
 
 			play_button = document.createElement("button");
 			play_button.appendChild(document.createTextNode("PLAY"));
@@ -217,9 +217,9 @@ function onPageLoaded() {
 			episode_box.appendChild(play_button);
 
 			span = document.createElement("span");
-			span.appendChild(document.createTextNode(playerData.episodes[i].series));
-			$(span).addClass("seriesLabel");
-			$(span).on('click', getSeriesLabelClosure(i));
+			span.appendChild(document.createTextNode(playerData.episodes[i].group));
+			$(span).addClass("groupLabel");
+			$(span).on('click', getGroupLabelClosure(i));
 			episode_box.appendChild(span);
 
 			span = document.createElement("span");
@@ -264,7 +264,7 @@ function onFilterTimeout() {
 		episode_box,
 		query,
 		title,
-		series;
+		group;
 
 	text_input = document.getElementById("filterText");
 	query = text_input.value.toLowerCase();
@@ -274,10 +274,10 @@ function onFilterTimeout() {
 	for (i = 0; i < playerData.episodes.length; i += 1) {
 		episode_info = playerData.episodes[i];
 		title = episode_info.title.toLowerCase();
-		series = episode_info.series.toLowerCase();
-		episode_box = document.getElementById(episode_info.filename);
+		group = episode_info.group.toLowerCase();
+		episode_box = document.getElementById(episode_info.id);
 
-		if (query !== "" && title.indexOf(query) === -1 && series.indexOf(query) === -1) {
+		if (query !== "" && title.indexOf(query) === -1 && group.indexOf(query) === -1) {
 			episode_box.style.display = "none";
 		} else {
 			episode_box.style.display = "block";
