@@ -272,6 +272,15 @@ function onPageLoaded() {
 	$('#pauseButton').on('click', pauseEpisode);
 	$("#randomButton").on("click", onRandomButtonClicked);
 	window.addEventListener("resize", onResize, false, 0, false);
+
+    for (var line_index in Les2Minutes.transcript.lines) {
+        var line = Les2Minutes.transcript.lines[line_index];
+        var sep_index = line.indexOf(' ');
+        var prefix = line.slice(0, sep_index);
+        var rest = line.slice(sep_index);
+        var chara = Les2Minutes.transcript.characters[prefix];
+        console.log(chara + ':' + rest);
+    }
 }
 
 function onFilterTimeout() {
