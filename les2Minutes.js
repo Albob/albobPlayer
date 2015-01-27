@@ -272,6 +272,32 @@ function onPageLoaded() {
 	$('#pauseButton').on('click', pauseEpisode);
 	$("#randomButton").on("click", onRandomButtonClicked);
 	window.addEventListener("resize", onResize, false, 0, false);
+
+	// parse transcript
+	var color_map = {};
+	var color_index = 1;
+
+	for (var line_index in Les2Minutes.transcript.lines) {
+		var line = Les2Minutes.transcript.lines[line_index];
+		var sep_index = line.indexOf(" ");
+
+		if (sep_index == -1) {
+			console.log("[Error] Wrong format on line: " + line);
+			break;
+		}
+
+		var prefix = line.slice(0, sep_index);
+		var rest = line.slice(sep_index);
+		var chara = Les2Minutes.transcript.characters[prefix];
+		var result = chara + ":" + rest;
+		console.log(result);
+		var color = color_map[prefix];
+		if (color === undefined) {
+			color_map[prefix] = color_index;
+			color_index += 1;
+		}
+		$("#transcript").append('<div class="char' + color + '">' + result + '</div>');
+	}
 }
 
 function onFilterTimeout() {
