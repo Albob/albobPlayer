@@ -293,7 +293,7 @@ function onPageLoaded() {
         console.log(result);
         var color = color_map[prefix];
         if (color === undefined) {
-            color_map[prefix] = color_index;
+            color = color_map[prefix] = color_index;
             color_index += 1;
         }
         $("#transcript").append('<div class="char' + color + '">' + result + '</div>');
