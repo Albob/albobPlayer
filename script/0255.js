@@ -1,4 +1,3 @@
-
 var Les2Minutes = Les2Minutes || {};
 
 Les2Minutes.transcript = {
