@@ -203,3 +203,23 @@ body {
     padding: 4px 15px;
     margin: 0px;
 }
+.char8 {
+    margin : 3px;
+    padding: 5px 10px;
+    background-color: green;
+}
+.char8 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
+.char9 {
+    margin : 3px;
+    padding: 5px 10px;
+    background-color: yellow;
+}
+.char9 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
