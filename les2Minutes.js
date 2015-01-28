@@ -276,6 +276,9 @@ function onPageLoaded() {
     // parse transcript
     var color_map = {};
     var color_index = 1;
+    var last_prefix = "";
+    var chara_div = null;
+    var chara_ul = null;
 
     for (var line_index in Les2Minutes.transcript.lines) {
         var line = Les2Minutes.transcript.lines[line_index];
@@ -287,16 +290,23 @@ function onPageLoaded() {
         }
 
         var prefix = line.slice(0, sep_index);
-        var rest = line.slice(sep_index);
+        var rest = line.slice(sep_index + 1);
         var chara = Les2Minutes.transcript.characters[prefix];
-        var result = chara + ":" + rest;
-        console.log(result);
         var color = color_map[prefix];
         if (color === undefined) {
             color = color_map[prefix] = color_index;
             color_index += 1;
         }
-        $("#transcript").append('<div class="char' + color + '">' + result + '</div>');
+
+        if (prefix != last_prefix) {
+            chara_div = $('<div class="char' + color + '"><strong>' + chara + ':</strong></div>');
+            $("#transcript").append(chara_div);
+            chara_ul = $('<ul></ul>');
+            chara_div.append(chara_ul);
+        }
+
+        chara_ul.append('<li>' + rest + '</li>');
+        last_prefix = prefix;
     }
 }
 

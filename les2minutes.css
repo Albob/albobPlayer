@@ -134,23 +134,72 @@ body {
     color: rgb(70, 120, 247);
 }
 .char1 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: lightblue;
 }
+.char1 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
 .char2 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: lightgrey;
 }
+.char2 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
 .char3 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: magenta;
 }
+.char3 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
 .char4 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: cyan;
 }
+.char4 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
 .char5 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: orange;
 }
+.char5 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
 .char6 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: purple;
 }
+.char6 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
+}
 .char7 {
+    margin : 3px;
+    padding: 5px 10px;
     background-color: red;
+}
+.char7 ul {
+    list-style-type: none;
+    padding: 4px 15px;
+    margin: 0px;
 }
