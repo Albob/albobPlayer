@@ -16,7 +16,7 @@ body {
     height: 618px;
 }
 #transcript {
-    width: 50%;
+    width: 48%;
     margin: 0px auto;
     height: 100%;
     overflow-y: auto;
@@ -134,17 +134,23 @@ body {
     color: rgb(70, 120, 247);
 }
 .char1 {
-    color: lightblue;
+    background-color: lightblue;
 }
 .char2 {
-    color: lightgrey;
+    background-color: lightgrey;
 }
 .char3 {
-    color: magenta;
+    background-color: magenta;
 }
 .char4 {
-    color: cyan;
+    background-color: cyan;
 }
 .char5 {
-    color: orange;
+    background-color: orange;
+}
+.char6 {
+    background-color: purple;
+}
+.char7 {
+    background-color: red;
 }
