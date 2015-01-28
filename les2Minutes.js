@@ -305,7 +305,7 @@ function onPageLoaded() {
             chara_div.append(chara_ul);
         }
 
-        chara_ul.append('<li>' + rest + '</li>');
+        chara_ul.append('<li>- ' + rest + '</li>');
         last_prefix = prefix;
     }
 }
