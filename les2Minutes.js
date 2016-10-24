@@ -35,7 +35,7 @@ function normalizeText($text)
 // !Util //////////////////////////////////////////////////////////////////////////////////////////
 
 function onResize() {
-    $("#content").height(window.innerHeight - ($("#header").height() + $("#footer").height() + 10));
+    // $("#content").height(window.innerHeight - ($("#header").height() + $("#footer").height() + 10));
 }
 
 function clearSources($player) {
@@ -123,16 +123,16 @@ function playEpisode($episode_index) {
 
 function onHashChange() {
     var fragment,
-    fragment_split,
-    hash_fragments,
-    episode_index,
-    episode_list,
-    i,
-    episode_box_height,
-    top_alignment,
-    bottom_alignment,
-    first_visible_episode_index,
-    last_visible_episode_index;
+        fragment_split,
+        hash_fragments,
+        episode_index,
+        episode_list,
+        i,
+        episode_box_height,
+        top_alignment,
+        bottom_alignment,
+        first_visible_episode_index,
+        last_visible_episode_index;
 
     hash_fragments = window.location.hash.replace("#!", "").replace("#", "").split("&");
 
@@ -187,7 +187,7 @@ function getEpisodeBoxClosure($episode_index) {
 
 function getGroupLabelClosure(i) {
     return function() {
-        say('Clicked on group label (index:'+i+')');
+        say('Clicked on group label (index:' + i + ')');
         $('#filterText')[0].value = playerData.episodes[i].group;
         $('#filterText')[0].focus();
         onFilterTimeout(); // force filter refresh
@@ -274,40 +274,40 @@ function onPageLoaded() {
     window.addEventListener("resize", onResize, false, 0, false);
 
     // parse transcript
-    var color_map = {};
-    var color_index = 1;
-    var last_prefix = "";
-    var chara_div = null;
-    var chara_ul = null;
+    // var color_map = {};
+    // var color_index = 1;
+    // var last_prefix = "";
+    // var chara_div = null;
+    // var chara_ul = null;
 
-    for (var line_index in Les2Minutes.transcript.lines) {
-        var line = Les2Minutes.transcript.lines[line_index];
-        var sep_index = line.indexOf(" ");
+    // for (var line_index in Les2Minutes.transcript.lines) {
+    //     var line = Les2Minutes.transcript.lines[line_index];
+    //     var sep_index = line.indexOf(" ");
 
-        if (sep_index == -1) {
-            console.log("[Error] Wrong format on line: " + line);
-            break;
-        }
+    //     if (sep_index == -1) {
+    //         console.log("[Error] Wrong format on line: " + line);
+    //         break;
+    //     }
 
-        var prefix = line.slice(0, sep_index);
-        var rest = line.slice(sep_index + 1);
-        var chara = Les2Minutes.transcript.characters[prefix];
-        var color = color_map[prefix];
-        if (color === undefined) {
-            color = color_map[prefix] = color_index;
-            color_index += 1;
-        }
+    //     var prefix = line.slice(0, sep_index);
+    //     var rest = line.slice(sep_index + 1);
+    //     var chara = Les2Minutes.transcript.characters[prefix];
+    //     var color = color_map[prefix];
+    //     if (color === undefined) {
+    //         color = color_map[prefix] = color_index;
+    //         color_index += 1;
+    //     }
 
-        if (prefix != last_prefix) {
-            chara_div = $('<div class="char' + color + '"><strong>' + chara + ':</strong></div>');
-            $("#transcript").append(chara_div);
-            chara_ul = $('<ul></ul>');
-            chara_div.append(chara_ul);
-        }
+    //     if (prefix != last_prefix) {
+    //         chara_div = $('<div class="char' + color + '"><strong>' + chara + ':</strong></div>');
+    //         $("#transcript").append(chara_div);
+    //         chara_ul = $('<ul></ul>');
+    //         chara_div.append(chara_ul);
+    //     }
 
-        chara_ul.append('<li>- ' + rest + '</li>');
-        last_prefix = prefix;
-    }
+    //     chara_ul.append('<li>- ' + rest + '</li>');
+    //     last_prefix = prefix;
+    // }
 }
 
 function onFilterTimeout() {
