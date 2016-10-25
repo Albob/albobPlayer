@@ -209,6 +209,35 @@ function onRandomButtonClicked() {
     listenTo(rand);
 }
 
+function makeEpisodeBox(with_play_button, episode_info, index) {
+    episode_box = document.createElement("div");
+    episode_box.setAttribute('class', "episode");
+    episode_box.setAttribute('id', episode_info.id);
+
+    if (with_play_button) {
+        play_button = document.createElement("button");
+        play_button.appendChild(document.createTextNode("PLAY"));
+        play_button.addEventListener("click", getEpisodeBoxClosure(index), false, 0, false);
+        $(play_button).addClass("playButton");
+        episode_box.appendChild(play_button);
+    }
+
+    span = document.createElement("span");
+    span.appendChild(document.createTextNode(episode_info.group));
+    $(span).addClass("groupLabel");
+    if (index > -1) {
+        $(span).on('click', getGroupLabelClosure(index));
+    }
+    episode_box.appendChild(span);
+
+    span = document.createElement("span");
+    $(span).addClass('titleLabel');
+    span.appendChild(document.createTextNode(episode_info.title));
+    episode_box.appendChild(span);
+
+    return episode_box;
+}
+
 function onPageLoaded() {
     var i,
         episode_info,
@@ -218,37 +247,17 @@ function onPageLoaded() {
         span;
 
     say('Welcome to the player!'); 
+    box_list = document.getElementById("episodeBoxList");
+
+    // Column names
+    episode_info = {group: "Catégorie", title: "Titre"};
+    episode_box = makeEpisodeBox(false, episode_info, -1);
+    box_list.appendChild(episode_box);
 
     if (!Les2Minutes.isMobile) {
         for (i = 0; i < playerData.episodes.length; i += 1) {
             episode_info = playerData.episodes[i];
-
-            episode_box = document.createElement("div");
-            episode_box.setAttribute('class', "episode");
-            episode_box.setAttribute('id', episode_info.id);
-
-            play_button = document.createElement("button");
-            play_button.appendChild(document.createTextNode("PLAY"));
-            play_button.addEventListener("click", getEpisodeBoxClosure(i), false, 0, false);
-            $(play_button).addClass("playButton");
-            episode_box.appendChild(play_button);
-
-            span = document.createElement("span");
-            span.appendChild(document.createTextNode(playerData.episodes[i].group));
-            $(span).addClass("groupLabel");
-            $(span).on('click', getGroupLabelClosure(i));
-            episode_box.appendChild(span);
-
-            span = document.createElement("span");
-            span.appendChild(document.createTextNode("-"));
-            episode_box.appendChild(span);
-
-            span = document.createElement("span");
-            $(span).addClass('titleLabel');
-            span.appendChild(document.createTextNode(playerData.episodes[i].title));
-            episode_box.appendChild(span);
-
-            box_list = document.getElementById("episodeBoxList");
+            episode_box = makeEpisodeBox(true, episode_info, i);
             box_list.appendChild(episode_box);
         }
     }

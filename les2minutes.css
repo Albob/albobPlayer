@@ -95,6 +95,7 @@ body {
 .episode {
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
+    height: 22px;
     width: auto;
     font-size: 18px;
 }
@@ -117,12 +118,18 @@ body {
 .groupLabel {
     color: rgb(6, 59, 109);
     cursor: pointer;
+    left: 130px;
+    position: absolute;
 }
 .played span {
     color: lightgrey !important;
 }
 .playButton:hover {
     color: rgb(70, 120, 247);
+}
+.titleLabel {
+    left: 400px;
+    position: absolute;
 }
 .char1 {
     margin : 3px;
